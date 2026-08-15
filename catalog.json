@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T22:30:00Z",
+  "readyFragrances": [
+    {
+      "name": "Champagne Toast",
+      "officialNotes": [
+        "Bubbly Champagne",
+        "Sparkling Berries",
+        "Juicy Tangerine"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sparkling berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Tangerine / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Bubbly / sparkling quality",
+          "profileKey": "Sparkling"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Citrus": 2,
+        "Sweet": 2,
+        "Fresh": 2,
+        "Sparkling": 3,
+        "Fruity": 3
+      },
+      "styleTags": [
+        "Bright",
+        "Playful",
+        "Easygoing"
+      ],
+      "summary": "Bright, bubbly fruit with sweet berries and citrus.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Warm Vanilla Sugar",
+      "officialNotes": [
+        "Vanilla",
+        "Sugar",
+        "Jasmine",
+        "Sandalwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Jasmine / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Creamy softness",
+          "profileKey": "Creamy"
+        }
+      ],
+      "scentProfile": {
+        "Vanilla": 3,
+        "Sweet": 3,
+        "Gourmand": 2,
+        "Creamy": 2,
+        "Floral": 1,
+        "Woody": 1,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Cozy",
+        "Soft",
+        "Comforting"
+      ],
+      "summary": "A soft, cozy vanilla fragrance with sugar and gentle woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Into the Night",
+      "officialNotes": [
+        "Dark Berries",
+        "Amber",
+        "Rose",
+        "Patchouli",
+        "Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Dark berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Rose / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Patchouli",
+          "profileKey": "Patchouli"
+        },
+        {
+          "label": "Musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Amber": 3,
+        "Floral": 2,
+        "Patchouli": 2,
+        "Musk": 3,
+        "Sweet": 1,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Dark",
+        "Bold",
+        "Evening",
+        "Rich"
+      ],
+      "summary": "Rich berries, amber and musk with a deeper evening character.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Gingham Gorgeous",
+      "officialNotes": [
+        "Strawberry",
+        "Peach",
+        "Peony"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Strawberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Peach / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Peony / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 2,
+        "Floral": 2,
+        "Sweet": 2,
+        "Fresh": 2
+      },
+      "styleTags": [
+        "Bright",
+        "Playful",
+        "Daytime"
+      ],
+      "summary": "Juicy strawberry and peach softened by fresh florals.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Japanese Cherry Blossom",
+      "officialNotes": [
+        "Cherry Blossom",
+        "Pear",
+        "Jasmine",
+        "Sandalwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Cherry blossom / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Pear / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Powdery quality",
+          "profileKey": "Powdery"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Fruity": 1,
+        "Woody": 2,
+        "Powdery": 2,
+        "Sweet": 1
+      },
+      "styleTags": [
+        "Classic",
+        "Soft",
+        "Traditional"
+      ],
+      "summary": "A classic floral with soft fruit and warm woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "At the Beach",
+      "officialNotes": [
+        "Coconut",
+        "Bergamot",
+        "Sea Salt",
+        "Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Coconut",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sea-salt / aquatic quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Coconut": 3,
+        "Citrus": 1,
+        "Aquatic": 3,
+        "Fresh": 2,
+        "Musk": 2
+      },
+      "styleTags": [
+        "Beachy",
+        "Airy",
+        "Casual",
+        "Summer"
+      ],
+      "summary": "Beachy coconut with fresh sea air, citrus and soft musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "A Thousand Wishes",
+      "officialNotes": [
+        "Sparkling Fruit",
+        "Peony",
+        "Amber",
+        "Amaretto"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sparkling fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Peony / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Sparkling quality",
+          "profileKey": "Sparkling"
+        }
+      ],
+      "scentProfile": {
+        "Fruity": 2,
+        "Floral": 2,
+        "Amber": 2,
+        "Sweet": 2,
+        "Sparkling": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Celebratory",
+        "Polished",
+        "Warm"
+      ],
+      "summary": "Sparkling fruit and florals over warm amber.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Strawberry Pound Cake",
+      "officialNotes": [
+        "Strawberry",
+        "Cake",
+        "Whipped Cream"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Strawberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Cake / dessert quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Whipped cream",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Gourmand": 3,
+        "Creamy": 3,
+        "Sweet": 3,
+        "Vanilla": 2
+      },
+      "styleTags": [
+        "Dessert",
+        "Indulgent",
+        "Rich",
+        "Playful"
+      ],
+      "summary": "A very sweet strawberry dessert-style fragrance.",
+      "availability": "uncertain"
+    }
+  ],
+  "scentIndex": [
+    {
+      "name": "A Thousand Wishes",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "At the Beach",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Champagne Toast",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Gingham Gorgeous",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Into the Night",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Japanese Cherry Blossom",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Strawberry Pound Cake",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Warm Vanilla Sugar",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    }
+  ]
+}
