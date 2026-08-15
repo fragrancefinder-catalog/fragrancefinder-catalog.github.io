@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T23:21:00Z",
+  "generatedAt": "2026-08-15T23:30:00Z",
   "readyFragrances": [
     {
       "name": "Champagne Toast",
@@ -364,8 +364,33 @@
   ],
   "scentIndex": [
     {
+      "name": "A Thousand Wishes",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "At the Beach",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
       "name": "Champagne Toast",
       "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        },
         {
           "family": "sanitizer",
           "productType": "PocketBac Hand Sanitizer",
@@ -379,12 +404,57 @@
       ]
     },
     {
+      "name": "Gingham Gorgeous",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
       "name": "Into the Night",
       "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        },
         {
           "family": "roomSpray",
           "productType": "Concentrated Room Spray",
           "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-concentrated-room-spray-028008223"
+        }
+      ]
+    },
+    {
+      "name": "Japanese Cherry Blossom",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Strawberry Pound Cake",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
+        }
+      ]
+    },
+    {
+      "name": "Warm Vanilla Sugar",
+      "observations": [
+        {
+          "family": "bodyCare",
+          "productType": "Bootstrap recommendation-ready scent",
+          "sourceURL": "https://fragrancefinder-catalog.github.io/catalog.json"
         }
       ]
     }
