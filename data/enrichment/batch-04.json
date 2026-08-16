@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batch": "batch-04",
-  "description": "Gap-filling recommendation enrichment emphasizing creamy gourmand, aquatic/clean, strong floral/green and amber/woody scent profiles.",
+  "description": "Gap-filling recommendation enrichment migrated to normalized scent vocabulary v2.",
   "fragrances": [
     {
       "name": "Caramel Vanilla",
@@ -53,8 +53,8 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Toasted pistachio / nutty dessert quality",
-          "profileKey": "Gourmand"
+          "label": "Toasted pistachio / nutty quality",
+          "profileKey": "Nutty"
         },
         {
           "label": "Shea-butter creaminess",
@@ -75,9 +75,10 @@
       ],
       "scentProfile": {
         "Creamy": 3,
-        "Gourmand": 3,
+        "Gourmand": 2,
         "Musk": 2,
-        "Sweet": 3,
+        "Nutty": 3,
+        "Sweet": 2,
         "Vanilla": 2,
         "Warm": 2
       },
@@ -103,8 +104,8 @@
           "profileKey": "Woody"
         },
         {
-          "label": "Vetiver / earthy woods",
-          "profileKey": "Woody"
+          "label": "Vetiver / earthy quality",
+          "profileKey": "Earthy"
         },
         {
           "label": "Coastal-air / aquatic quality",
@@ -117,6 +118,7 @@
       ],
       "scentProfile": {
         "Aquatic": 3,
+        "Earthy": 2,
         "Fresh": 3,
         "Woody": 2
       },
@@ -178,7 +180,7 @@
         },
         {
           "label": "Dewy greens / green quality",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
           "label": "Fresh spring-air quality",
@@ -188,7 +190,7 @@
       "scentProfile": {
         "Floral": 3,
         "Fresh": 3,
-        "Herbal": 2
+        "Green": 2
       },
       "styleTags": [
         "Floral",
@@ -214,11 +216,11 @@
         },
         {
           "label": "Fresh greenery",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
-          "label": "Sweet apple / fruit",
-          "profileKey": "Fruity"
+          "label": "Sweet apple",
+          "profileKey": "Apple"
         },
         {
           "label": "Freshness",
@@ -230,10 +232,10 @@
         }
       ],
       "scentProfile": {
+        "Apple": 1,
         "Floral": 3,
-        "Fresh": 2,
-        "Fruity": 1,
-        "Herbal": 2,
+        "Fresh": 1,
+        "Green": 2,
         "Sweet": 1
       },
       "styleTags": [
