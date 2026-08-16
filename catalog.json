@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T03:01:40.576Z",
+  "generatedAt": "2026-08-16T03:09:54.469Z",
   "readyFragrances": [
     {
       "name": "A Thousand Wishes",
@@ -92,6 +92,52 @@
         "Airy"
       ],
       "summary": "Beachy coconut with fresh sea air, citrus and soft musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Autumn Drive",
+      "officialNotes": [
+        "Wild Raspberry",
+        "Warm Amber",
+        "Vanilla Birch"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Wild raspberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Birch / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 3,
+        "Berry": 3,
+        "Sweet": 2,
+        "Vanilla": 2,
+        "Warm": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Warm",
+        "Berry",
+        "Woodsy",
+        "Fall"
+      ],
+      "summary": "Juicy raspberry warmed by amber and smooth vanilla birch.",
       "availability": "uncertain"
     },
     {
@@ -352,6 +398,46 @@
         "Comforting"
       ],
       "summary": "Fresh bergamot over warm mahogany and a soft, comforting musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Fresh Rainfall",
+      "officialNotes": [
+        "Aloe Leaf",
+        "Bergamot",
+        "Chamomile Water"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Aloe leaf / green quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Chamomile water / watery softness",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 2,
+        "Citrus": 2,
+        "Fresh": 3,
+        "Herbal": 2
+      },
+      "styleTags": [
+        "Fresh",
+        "Watery",
+        "Green",
+        "Calm"
+      ],
+      "summary": "Cool after-rain freshness with bergamot, green aloe and soft chamomile water.",
       "availability": "uncertain"
     },
     {
@@ -619,6 +705,121 @@
       "availability": "uncertain"
     },
     {
+      "name": "Laundry Day",
+      "officialNotes": [
+        "Fresh Air",
+        "Crisp Eucalyptus",
+        "Soft Lavender"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh-air cleanliness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Eucalyptus / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Lavender / floral",
+          "profileKey": "Floral"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 2,
+        "Fresh": 3,
+        "Herbal": 2
+      },
+      "styleTags": [
+        "Clean",
+        "Fresh",
+        "Airy",
+        "Aromatic"
+      ],
+      "summary": "Clean fresh air with crisp eucalyptus and a soft lavender finish.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Leaves",
+      "officialNotes": [
+        "Crisp Red Apple",
+        "Golden Nectar",
+        "Warm Clove Spice"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp red apple / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Golden nectar / sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Clove spice / warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Fruity": 3,
+        "Sweet": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Spiced",
+        "Fruity",
+        "Cozy",
+        "Fall"
+      ],
+      "summary": "Crisp red apple and golden sweetness wrapped in warm clove spice.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Mahogany Coconut",
+      "officialNotes": [
+        "Creamy Coconut",
+        "Mahogany Woods",
+        "English Lavender"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Coconut",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Mahogany / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "English lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Creamy quality",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Coconut": 3,
+        "Creamy": 2,
+        "Floral": 1,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Woodsy",
+        "Creamy",
+        "Tropical",
+        "Relaxed"
+      ],
+      "summary": "Creamy coconut blended with smooth mahogany woods and aromatic lavender.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Mahogany Teakwood",
       "officialNotes": [
         "Mahogany",
@@ -705,6 +906,52 @@
       "availability": "uncertain"
     },
     {
+      "name": "Platinum",
+      "officialNotes": [
+        "Sparkling Bergamot",
+        "Silver Blooms",
+        "Patchouli Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sparkling quality",
+          "profileKey": "Sparkling"
+        },
+        {
+          "label": "Silver blooms / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Patchouli",
+          "profileKey": "Patchouli"
+        },
+        {
+          "label": "Musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Floral": 2,
+        "Musk": 2,
+        "Patchouli": 2,
+        "Sparkling": 3,
+        "Warm": 1
+      },
+      "styleTags": [
+        "Sparkling",
+        "Polished",
+        "Floral",
+        "Bold"
+      ],
+      "summary": "Sparkling bergamot and luminous florals grounded by patchouli musk.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Pumpkin Pecan Waffles",
       "officialNotes": [
         "Maple Syrup",
@@ -778,6 +1025,94 @@
         "Rich"
       ],
       "summary": "A very sweet strawberry dessert-style fragrance.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sweet Pea",
+      "officialNotes": [
+        "Sweet Pea",
+        "Watery Pear",
+        "Sheer Freesia",
+        "Luscious Raspberry",
+        "Soft Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sweet pea and freesia / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Watery pear / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Raspberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Fresh watery quality",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Floral": 3,
+        "Fresh": 2,
+        "Fruity": 2,
+        "Musk": 1,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Floral",
+        "Fruity",
+        "Soft",
+        "Cheerful"
+      ],
+      "summary": "A soft fruity floral with sweet pea, watery pear, raspberry and gentle musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Vampire Blood",
+      "officialNotes": [
+        "Red Berries",
+        "Night-Blooming Jasmine",
+        "Petrifying Plum"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Red berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Plum / dark fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Night-blooming jasmine / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Floral": 2,
+        "Fruity": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Dark Fruit",
+        "Berry",
+        "Floral",
+        "Playful"
+      ],
+      "summary": "Sweet red berries and dark plum wrapped in night-blooming jasmine.",
       "availability": "uncertain"
     },
     {
