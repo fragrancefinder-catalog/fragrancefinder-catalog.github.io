@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "vocabularyVersion": 2,
+  "description": "Canonical normalized scent-trait vocabulary for FragranceFinder recommendation data. Categories are descriptive organization only and are not recommendation-scoring rules.",
+  "weightScale": {
+    "1": "Supporting or subtle characteristic",
+    "2": "Meaningful characteristic",
+    "3": "Dominant or defining characteristic"
+  },
+  "traits": [
+    {
+      "key": "Amber",
+      "category": "warm-resinous",
+      "introducedIn": "legacy",
+      "description": "Amber-like warmth, resinous sweetness or glowing warmth."
+    },
+    {
+      "key": "Aquatic",
+      "category": "fresh-clean",
+      "introducedIn": "legacy",
+      "description": "Watery, marine, rain, spring-water or sea-air character."
+    },
+    {
+      "key": "Berry",
+      "category": "fruit",
+      "introducedIn": "legacy",
+      "description": "Berry-focused fruit character such as raspberry or strawberry."
+    },
+    {
+      "key": "Citrus",
+      "category": "fruit",
+      "introducedIn": "legacy",
+      "description": "Citrus character such as bergamot, orange, tangerine or lemon."
+    },
+    {
+      "key": "Coconut",
+      "category": "gourmand-tropical",
+      "introducedIn": "legacy",
+      "description": "Recognizable coconut character."
+    },
+    {
+      "key": "Cooling",
+      "category": "fresh-clean",
+      "introducedIn": "legacy",
+      "description": "Cooling or chilling sensory impression."
+    },
+    {
+      "key": "Creamy",
+      "category": "texture-gourmand",
+      "introducedIn": "legacy",
+      "description": "Creamy, whipped, milky, buttery or soft lactonic impression."
+    },
+    {
+      "key": "Floral",
+      "category": "floral",
+      "introducedIn": "legacy",
+      "description": "Recognizable flower or floral-bouquet character."
+    },
+    {
+      "key": "Fresh",
+      "category": "fresh-clean",
+      "introducedIn": "legacy",
+      "description": "General crisp or refreshing impression when a more specific fresh trait does not fully describe it."
+    },
+    {
+      "key": "Fruity",
+      "category": "fruit",
+      "introducedIn": "legacy",
+      "description": "General fruit character not fully represented by a more specific fruit trait."
+    },
+    {
+      "key": "Gourmand",
+      "category": "gourmand",
+      "introducedIn": "legacy",
+      "description": "Edible, dessert, bakery or food-like fragrance character."
+    },
+    {
+      "key": "Herbal",
+      "category": "aromatic",
+      "introducedIn": "legacy",
+      "description": "Herbal or aromatic plant character."
+    },
+    {
+      "key": "Mint",
+      "category": "aromatic",
+      "introducedIn": "legacy",
+      "description": "Recognizable mint or spearmint character."
+    },
+    {
+      "key": "Musk",
+      "category": "musk-woods",
+      "introducedIn": "legacy",
+      "description": "Musky, skin-like or soft musk character."
+    },
+    {
+      "key": "Patchouli",
+      "category": "earthy-woods",
+      "introducedIn": "legacy",
+      "description": "Recognizable patchouli character."
+    },
+    {
+      "key": "Powdery",
+      "category": "texture-floral",
+      "introducedIn": "legacy",
+      "description": "Powdery, cosmetic or soft vintage-style texture."
+    },
+    {
+      "key": "Sparkling",
+      "category": "texture-brightness",
+      "introducedIn": "legacy",
+      "description": "Effervescent, bubbly, fizzy or sparkling impression."
+    },
+    {
+      "key": "Sweet",
+      "category": "sweetness",
+      "introducedIn": "legacy",
+      "description": "General perceived sweetness."
+    },
+    {
+      "key": "Vanilla",
+      "category": "gourmand",
+      "introducedIn": "legacy",
+      "description": "Recognizable vanilla character."
+    },
+    {
+      "key": "Warm",
+      "category": "warm-resinous",
+      "introducedIn": "legacy",
+      "description": "General warm, cozy or heated fragrance impression."
+    },
+    {
+      "key": "Woody",
+      "category": "musk-woods",
+      "introducedIn": "legacy",
+      "description": "Wood character such as sandalwood, mahogany, teakwood or driftwood."
+    },
+    {
+      "key": "Green",
+      "category": "fresh-clean",
+      "introducedIn": "0.6F-B",
+      "description": "Leafy, dewy, grassy, aloe-like or fresh-green plant character."
+    },
+    {
+      "key": "Clean",
+      "category": "fresh-clean",
+      "introducedIn": "0.6F-B",
+      "description": "Laundry-clean, linen-clean, freshly washed or detergent-like character."
+    },
+    {
+      "key": "Spicy",
+      "category": "spice",
+      "introducedIn": "0.6F-B",
+      "description": "Recognizable spice character such as clove, cinnamon or pumpkin spice."
+    },
+    {
+      "key": "Nutty",
+      "category": "gourmand",
+      "introducedIn": "0.6F-B",
+      "description": "Recognizable nutty character such as pistachio or pecan-like nuances."
+    },
+    {
+      "key": "Coffee",
+      "category": "gourmand-beverage",
+      "introducedIn": "0.6F-B",
+      "description": "Coffee, espresso, latte or roasted-coffee character."
+    },
+    {
+      "key": "Boozy",
+      "category": "beverage",
+      "introducedIn": "0.6F-B",
+      "description": "Whiskey, rum, liqueur, spirit or distinctly boozy fragrance character."
+    },
+    {
+      "key": "Tea",
+      "category": "aromatic",
+      "introducedIn": "0.6F-B",
+      "description": "Recognizable tea character that should not automatically be treated as generic Fresh or Herbal."
+    },
+    {
+      "key": "Apple",
+      "category": "fruit",
+      "introducedIn": "0.6F-B",
+      "description": "Recognizable apple character."
+    },
+    {
+      "key": "Earthy",
+      "category": "earthy-woods",
+      "introducedIn": "0.6F-B",
+      "description": "Earthy, mossy, vetiver-like or grounded forest-floor character."
+    },
+    {
+      "key": "Airy",
+      "category": "fresh-clean",
+      "introducedIn": "0.6F-B",
+      "description": "Light, airy, breezy or spacious impression distinct from generic freshness."
+    },
+    {
+      "key": "Tart",
+      "category": "texture-brightness",
+      "introducedIn": "0.6F-B",
+      "description": "Tart, tangy or mouth-puckering fruit brightness."
+    }
+  ]
+}
