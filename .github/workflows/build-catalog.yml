@@ -27,51 +27,169 @@ jobs:
       - name: Validate generated JSON
         shell: bash
         run: |
-          node -e "
-            const fs = require('fs');
-            const c = JSON.parse(fs.readFileSync('catalog.json', 'utf8'));
+          node <<'NODE'
+          const fs = require('fs');
 
-            if (c.schemaVersion !== 1) {
-              throw new Error('Wrong schema version');
-            }
+          const c = JSON.parse(
+            fs.readFileSync(
+              'catalog.json',
+              'utf8'
+            )
+          );
 
-            if (c.readyFragrances.length !== 8) {
-              throw new Error('Wrong ready-fragrance count');
-            }
+          if (c.schemaVersion !== 1) {
+            throw new Error(
+              'Wrong schema version'
+            );
+          }
 
-            if (c.scentIndex.length !== 125) {
-              throw new Error('Wrong scent-index count');
-            }
+          if (
+            !Array.isArray(c.readyFragrances) ||
+            c.readyFragrances.length < 8
+          ) {
+            throw new Error(
+              'Ready-fragrance catalog unexpectedly shrank'
+            );
+          }
 
-            const families = new Set(
+          if (
+            !Array.isArray(c.scentIndex) ||
+            c.scentIndex.length < 125
+          ) {
+            throw new Error(
+              'Discovery catalog unexpectedly shrank'
+            );
+          }
+
+          const families =
+            new Set(
               c.scentIndex.flatMap(
-                x => x.observations.map(o => o.family)
+                entry =>
+                  entry.observations.map(
+                    observation =>
+                      observation.family
+                  )
               )
             );
 
-            if (families.size !== 7) {
-              throw new Error('Not all 7 families are represented');
-            }
+          if (families.size !== 7) {
+            throw new Error(
+              'Not all 7 families are represented'
+            );
+          }
 
-            console.log('catalog.json validation passed');
-          "
+          const normalized =
+            value =>
+              String(value)
+                .trim()
+                .replace(/[®™℠©]/g, '')
+                .replace(/&/g, ' and ')
+                .replace(/[’']/g, '')
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase()
+                .replace(/[^a-z0-9]+/g, ' ')
+                .trim()
+                .replace(/\s+/g, ' ');
+
+          const scentNames =
+            new Set(
+              c.scentIndex.map(
+                entry =>
+                  normalized(entry.name)
+              )
+            );
+
+          for (
+            const fragrance
+            of c.readyFragrances
+          ) {
+            if (
+              !scentNames.has(
+                normalized(
+                  fragrance.name
+                )
+              )
+            ) {
+              throw new Error(
+                `Ready fragrance missing from scent index: ${fragrance.name}`
+              );
+            }
+          }
+
+          const bootstrap =
+            c.scentIndex.some(
+              entry =>
+                entry.observations.some(
+                  observation =>
+                    observation.productType ===
+                    'Bootstrap recommendation-ready scent'
+                )
+            );
+
+          if (bootstrap) {
+            throw new Error(
+              'Bootstrap observations remain'
+            );
+          }
+
+          console.log(
+            'catalog.json validation passed'
+          );
+          NODE
 
       - name: Write job summary
         shell: bash
         run: |
-          {
-            echo "## FragranceFinder Catalog Build"
-            echo
-            echo "**Ready fragrances:** 8"
-            echo
-            echo "**Scent identities:** 125"
-            echo
-            echo "**Families:** 7/7"
-            echo
-            echo "**Verified product observations added:** 107"
-            echo
-            echo "Bootstrap observations removed."
-          } >> "$GITHUB_STEP_SUMMARY"
+          node <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('fs');
+
+          const c = JSON.parse(
+            fs.readFileSync(
+              'catalog.json',
+              'utf8'
+            )
+          );
+
+          const families =
+            new Set(
+              c.scentIndex.flatMap(
+                entry =>
+                  entry.observations.map(
+                    observation =>
+                      observation.family
+                  )
+              )
+            );
+
+          console.log(
+            '## FragranceFinder Catalog Build'
+          );
+
+          console.log('');
+
+          console.log(
+            `**Ready fragrances:** ${c.readyFragrances.length}`
+          );
+
+          console.log(
+            `**Scent identities:** ${c.scentIndex.length}`
+          );
+
+          console.log(
+            `**Families:** ${families.size}/7`
+          );
+
+          console.log('');
+
+          console.log(
+            'Recommendation-ready data loaded from `data/enrichment/*.json`.'
+          );
+
+          console.log(
+            'Bootstrap observations removed.'
+          );
+          NODE
 
       - name: Commit generated catalog
         shell: bash
@@ -86,5 +204,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Build expanded fragrance catalog"
+          git commit -m "Build catalog from enrichment data"
           git push
