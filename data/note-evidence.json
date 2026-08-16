@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-08-15",
+  "verifiedAt": "2026-08-16",
   "description": "Official Bath & Body Works fragrance-note evidence used to distinguish scent-level display notes from product-format-specific note presentations.",
   "records": [
     {
@@ -12,7 +12,7 @@
           "family": "bodyCare",
           "productType": "Fine Fragrance Mist",
           "sourceURL": "https://www.bathandbodyworks.com/p/a-thousand-wishes-fine-fragrance-mist-028005120",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Pink Prosecco",
             "Sparkling Quince",
@@ -25,12 +25,11 @@
           "id": "atw-single-wick",
           "family": "candle",
           "productType": "Single Wick Candle",
-          "sourceURL": "https://www.bathandbodyworks.com/p/a-thousand-wishes-single-wick-candle-028008202.html",
-          "verifiedAt": "2026-08-15",
+          "sourceURL": "https://www.bathandbodyworks.com/p/a-thousand-wishes-single-wick-candle-028008202",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Pink Prosecco",
             "Crystal Peonies",
-            "Gilded Amber",
             "Amaretto Crème"
           ]
         }
@@ -45,7 +44,7 @@
           "family": "bodyCare",
           "productType": "Fine Fragrance Mist",
           "sourceURL": "https://www.bathandbodyworks.com/p/at-the-beach-fine-fragrance-mist-028015114",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "White Frangipani Blossoms",
             "Toasted Coconut",
@@ -58,14 +57,32 @@
     },
     {
       "name": "Into the Night",
-      "displaySourceId": "itn-body-mist",
+      "displaySourceId": "itn-body-wash",
       "evidence": [
         {
-          "id": "itn-body-mist",
+          "id": "itn-fine-fragrance-mist",
           "family": "bodyCare",
           "productType": "Fine Fragrance Mist",
           "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-fine-fragrance-mist-028003660",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
+          "notes": [
+            "Pink Pomelo",
+            "Dewberry",
+            "Black Raspberry Sugar",
+            "Turkish Rose Petals",
+            "Jasmine Sambac",
+            "Patchouli",
+            "Vanilla Bean",
+            "Mocha Musk",
+            "Amber"
+          ]
+        },
+        {
+          "id": "itn-body-wash",
+          "family": "bodyCare",
+          "productType": "Body Wash",
+          "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-body-wash-028003654",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Raspberry Noir",
             "Amber Crystals",
@@ -79,7 +96,7 @@
           "family": "bodyCare",
           "productType": "Shea Butter Cleansing Bar",
           "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-shea-butter-cleansing-bar-026468834",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Dark Berries",
             "Midnight Jasmine",
@@ -97,7 +114,7 @@
           "family": "bodyCare",
           "productType": "Fine Fragrance Mist",
           "sourceURL": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-fine-fragrance-mist-028011604",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Intoxicating Vanilla",
             "White Orchid",
@@ -111,7 +128,7 @@
           "family": "sanitizer",
           "productType": "Moisturizing PocketBac Hand Sanitizer",
           "sourceURL": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-moisturizing-pocketbac-hand-sanitizer-028004439",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Creamy Vanilla",
             "Sparkling Sugar Crystals"
@@ -128,7 +145,7 @@
           "family": "wallflower",
           "productType": "Wallflowers Fragrance Refill",
           "sourceURL": "https://www.bathandbodyworks.com/p/white-tea-and-sage-wallflowers-fragrance-refill-028008671",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Sparkling Bergamot",
             "White Tea",
@@ -140,7 +157,7 @@
           "family": "sanitizer",
           "productType": "PocketBac Hand Sanitizer",
           "sourceURL": "https://www.bathandbodyworks.com/p/white-tea-and-sage-pocketbac-hand-sanitizer-028004916",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Fresh Tea",
             "Lemon",
@@ -158,7 +175,7 @@
           "family": "wallflower",
           "productType": "Wallflowers Fragrance Refill",
           "sourceURL": "https://www.bathandbodyworks.com/p/coffee-and-whiskey-wallflowers-fragrance-refill-028013296",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Lightly Brewed Coffee",
             "Hint of Vanilla",
@@ -170,7 +187,7 @@
           "family": "candle",
           "productType": "3-Wick Candle",
           "sourceURL": "https://www.bathandbodyworks.com/p/coffee-and-whiskey-3-wick-candle-028030771",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Bold Irish Whiskey",
             "Splash of Vanilla",
@@ -188,7 +205,7 @@
           "family": "candle",
           "productType": "3-Wick Candle",
           "sourceURL": "https://www.bathandbodyworks.com/p/white-gardenia-3-wick-candle-028029559",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Classic White Gardenia",
             "Fresh Picked Greenery",
@@ -201,7 +218,7 @@
           "family": "wallflower",
           "productType": "Wallflowers Fragrance Refill",
           "sourceURL": "https://www.bathandbodyworks.com/es-us/p/white-gardenia-wallflowers-fragrance-refill-028013277",
-          "verifiedAt": "2026-08-15",
+          "verifiedAt": "2026-08-16",
           "notes": [
             "Gardenia Petals",
             "Sweet Apple",
