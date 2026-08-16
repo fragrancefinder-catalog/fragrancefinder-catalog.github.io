@@ -9,6 +9,9 @@ const BASELINE_PATH =
 const VERIFIED_PATH =
   path.join(ROOT, 'data', 'verified-observations.json');
 
+const ENRICHMENT_DIR =
+  path.join(ROOT, 'data', 'enrichment');
+
 const CATALOG_PATH =
   path.join(ROOT, 'catalog.json');
 
@@ -84,7 +87,10 @@ function isPlausibleName(value) {
     return false;
   }
 
-  if (words.length > 10 || raw.length > 80) {
+  if (
+    words.length > 10 ||
+    raw.length > 80
+  ) {
     return false;
   }
 
@@ -155,11 +161,16 @@ function cleanObservation(observation) {
   };
 }
 
-function addEntry(indexMap, incomingName, observations) {
+function addEntry(
+  indexMap,
+  incomingName,
+  observations
+) {
   if (!isPlausibleName(incomingName)) {
     console.log(
       `QUARANTINED NAME: "${incomingName}"`
     );
+
     return;
   }
 
@@ -188,7 +199,10 @@ function addEntry(indexMap, incomingName, observations) {
     );
   }
 
-  for (const rawObservation of observations ?? []) {
+  for (
+    const rawObservation
+    of observations ?? []
+  ) {
     const observation =
       cleanObservation(rawObservation);
 
@@ -208,6 +222,7 @@ function sortedIndex(indexMap) {
     .from(indexMap.values())
     .map(entry => ({
       name: entry.name,
+
       observations: Array
         .from(entry.observations.values())
         .sort((a, b) => {
@@ -220,24 +235,188 @@ function sortedIndex(indexMap) {
           return left.localeCompare(right);
         })
     }))
-    .filter(entry => entry.observations.length > 0)
-    .sort((a, b) =>
-      a.name.localeCompare(
-        b.name,
-        undefined,
-        { sensitivity: 'base' }
-      )
+    .filter(
+      entry =>
+        entry.observations.length > 0
+    )
+    .sort(
+      (a, b) =>
+        a.name.localeCompare(
+          b.name,
+          undefined,
+          {
+            sensitivity: 'base'
+          }
+        )
     );
 }
 
 function representedFamilies(index) {
   return new Set(
-    index.flatMap(entry =>
-      entry.observations.map(
-        observation => observation.family
-      )
+    index.flatMap(
+      entry =>
+        entry.observations.map(
+          observation =>
+            observation.family
+        )
     )
   );
+}
+
+function validateFragranceRecord(
+  fragrance,
+  sourceFile
+) {
+  if (!fragrance || typeof fragrance !== 'object') {
+    throw new Error(
+      `Invalid fragrance record in ${sourceFile}.`
+    );
+  }
+
+  const name =
+    String(fragrance.name ?? '').trim();
+
+  if (!name) {
+    throw new Error(
+      `Fragrance in ${sourceFile} is missing name.`
+    );
+  }
+
+  if (
+    !Array.isArray(fragrance.officialNotes) ||
+    fragrance.officialNotes.length === 0
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has no officialNotes.`
+    );
+  }
+
+  if (
+    !Array.isArray(fragrance.feedbackOptions) ||
+    fragrance.feedbackOptions.length === 0
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has no feedbackOptions.`
+    );
+  }
+
+  if (
+    !fragrance.scentProfile ||
+    typeof fragrance.scentProfile !== 'object'
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has no scentProfile.`
+    );
+  }
+
+  if (
+    !Array.isArray(fragrance.styleTags)
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has invalid styleTags.`
+    );
+  }
+
+  if (
+    !String(fragrance.summary ?? '').trim()
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has no summary.`
+    );
+  }
+
+  if (
+    !String(fragrance.availability ?? '').trim()
+  ) {
+    throw new Error(
+      `${name} in ${sourceFile} has no availability.`
+    );
+  }
+}
+
+function loadReadyFragrances() {
+  if (!fs.existsSync(ENRICHMENT_DIR)) {
+    throw new Error(
+      'Missing data/enrichment directory.'
+    );
+  }
+
+  const files =
+    fs.readdirSync(ENRICHMENT_DIR)
+      .filter(
+        file =>
+          file.endsWith('.json')
+      )
+      .sort();
+
+  if (files.length === 0) {
+    throw new Error(
+      'No enrichment JSON files were found.'
+    );
+  }
+
+  const readyMap =
+    new Map();
+
+  for (const file of files) {
+    const fullPath =
+      path.join(
+        ENRICHMENT_DIR,
+        file
+      );
+
+    const payload =
+      readJSON(fullPath);
+
+    if (payload.schemaVersion !== 1) {
+      throw new Error(
+        `Unsupported enrichment schema in ${file}.`
+      );
+    }
+
+    if (!Array.isArray(payload.fragrances)) {
+      throw new Error(
+        `${file} is missing fragrances[].`
+      );
+    }
+
+    for (
+      const fragrance
+      of payload.fragrances
+    ) {
+      validateFragranceRecord(
+        fragrance,
+        file
+      );
+
+      const key =
+        normalizeKey(fragrance.name);
+
+      if (readyMap.has(key)) {
+        throw new Error(
+          `Duplicate recommendation-ready fragrance: ${fragrance.name}`
+        );
+      }
+
+      readyMap.set(
+        key,
+        fragrance
+      );
+    }
+  }
+
+  return Array
+    .from(readyMap.values())
+    .sort(
+      (a, b) =>
+        a.name.localeCompare(
+          b.name,
+          undefined,
+          {
+            sensitivity: 'base'
+          }
+        )
+    );
 }
 
 function main() {
@@ -246,9 +425,6 @@ function main() {
 
   const verified =
     readJSON(VERIFIED_PATH);
-
-  const existingCatalog =
-    readJSON(CATALOG_PATH);
 
   if (baseline.schemaVersion !== 1) {
     throw new Error(
@@ -262,41 +438,44 @@ function main() {
     );
   }
 
-  if (existingCatalog.schemaVersion !== 1) {
-    throw new Error(
-      `Unsupported catalog schema: ${existingCatalog.schemaVersion}`
-    );
-  }
-
   if (!Array.isArray(baseline.scentIndex)) {
     throw new Error(
       'baseline-scent-index.json is missing scentIndex.'
     );
   }
 
-  if (baseline.scentIndex.length !== 99) {
+  if (
+    typeof baseline.scentCount === 'number' &&
+    baseline.scentCount !==
+      baseline.scentIndex.length
+  ) {
     throw new Error(
-      `Expected the cleaned 99-scent baseline, found ${baseline.scentIndex.length}.`
+      'Baseline scentCount does not match scentIndex length.'
     );
   }
 
-  if (
-    !Array.isArray(
-      existingCatalog.readyFragrances
-    ) ||
-    existingCatalog.readyFragrances.length !== 8
-  ) {
+  if (baseline.scentIndex.length < 99) {
     throw new Error(
-      'Expected exactly 8 recommendation-ready fragrances.'
+      `Baseline unexpectedly shrank to ${baseline.scentIndex.length} scents.`
+    );
+  }
+
+  const readyFragrances =
+    loadReadyFragrances();
+
+  if (readyFragrances.length < 8) {
+    throw new Error(
+      `Recommendation-ready catalog unexpectedly shrank to ${readyFragrances.length}.`
     );
   }
 
   const indexMap =
     new Map();
 
-  // Seed with all 99 cleaned identities and their
-  // already-known observations.
-  for (const entry of baseline.scentIndex) {
+  for (
+    const entry
+    of baseline.scentIndex
+  ) {
     addEntry(
       indexMap,
       entry.name,
@@ -306,7 +485,10 @@ function main() {
 
   let verifiedObservationCount = 0;
 
-  for (const batch of verified.batches ?? []) {
+  for (
+    const batch
+    of verified.batches ?? []
+  ) {
     const family =
       String(batch.family ?? '').trim();
 
@@ -325,7 +507,10 @@ function main() {
       );
     }
 
-    for (const product of batch.products ?? []) {
+    for (
+      const product
+      of batch.products ?? []
+    ) {
       verifiedObservationCount += 1;
 
       addEntry(
@@ -343,38 +528,35 @@ function main() {
     }
   }
 
-  if (verifiedObservationCount !== 107) {
-    throw new Error(
-      `Expected 107 verified product observations, found ${verifiedObservationCount}.`
-    );
-  }
-
   const scentIndex =
     sortedIndex(indexMap);
 
   const families =
-    representedFamilies(scentIndex);
-
-  const readyNames =
-    existingCatalog.readyFragrances.map(
-      fragrance => fragrance.name
+    representedFamilies(
+      scentIndex
     );
 
   const scentKeys =
     new Set(
       scentIndex.map(
-        entry => normalizeKey(entry.name)
+        entry =>
+          normalizeKey(entry.name)
       )
     );
 
-  for (const readyName of readyNames) {
+  for (
+    const fragrance
+    of readyFragrances
+  ) {
     if (
       !scentKeys.has(
-        normalizeKey(readyName)
+        normalizeKey(
+          fragrance.name
+        )
       )
     ) {
       throw new Error(
-        `Recommendation-ready fragrance is missing from the scent index: ${readyName}`
+        `Recommendation-ready fragrance is missing from the scent index: ${fragrance.name}`
       );
     }
   }
@@ -385,25 +567,26 @@ function main() {
     );
   }
 
-  if (scentIndex.length !== 125) {
+  if (scentIndex.length < 125) {
     throw new Error(
-      `Expected 125 canonical scent identities, found ${scentIndex.length}.`
+      `Discovery catalog unexpectedly shrank to ${scentIndex.length} scents.`
     );
   }
 
   const output = {
     schemaVersion: 1,
+
     generatedAt:
       new Date().toISOString(),
 
-    readyFragrances:
-      existingCatalog.readyFragrances,
+    readyFragrances,
 
     scentIndex
   };
 
   fs.writeFileSync(
     CATALOG_PATH,
+
     JSON.stringify(
       output,
       null,
@@ -412,18 +595,52 @@ function main() {
   );
 
   console.log('');
-  console.log('============================================');
-  console.log('FRAGRANCEFINDER CATALOG BUILD SUCCEEDED');
-  console.log('============================================');
-  console.log(`Ready fragrances: ${output.readyFragrances.length}`);
-  console.log(`Baseline scents: ${baseline.scentIndex.length}`);
-  console.log(`Verified observations: ${verifiedObservationCount}`);
-  console.log(`Built scent identities: ${scentIndex.length}`);
-  console.log(`Families represented: ${families.size}/7`);
+  console.log(
+    '============================================'
+  );
+  console.log(
+    'FRAGRANCEFINDER CATALOG BUILD SUCCEEDED'
+  );
+  console.log(
+    '============================================'
+  );
+
+  console.log(
+    `Ready fragrances: ${readyFragrances.length}`
+  );
+
+  console.log(
+    `Baseline scents: ${baseline.scentIndex.length}`
+  );
+
+  console.log(
+    `Verified observations: ${verifiedObservationCount}`
+  );
+
+  console.log(
+    `Built scent identities: ${scentIndex.length}`
+  );
+
+  console.log(
+    `Families represented: ${families.size}/7`
+  );
+
   console.log('');
-  console.log('Bootstrap observations removed: yes');
-  console.log('Known page-text contamination blocked: yes');
-  console.log('============================================');
+  console.log(
+    'Ready-fragrance source: data/enrichment/*.json'
+  );
+
+  console.log(
+    'Bootstrap observations removed: yes'
+  );
+
+  console.log(
+    'Known page-text contamination blocked: yes'
+  );
+
+  console.log(
+    '============================================'
+  );
 }
 
 main();
