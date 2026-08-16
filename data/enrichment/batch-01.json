@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batch": "batch-01",
-  "description": "First expansion of recommendation-ready FragranceFinder scents, verified against current official Bath & Body Works product pages.",
+  "description": "First expansion of recommendation-ready FragranceFinder scents, migrated to normalized scent vocabulary v2.",
   "fragrances": [
     {
       "name": "Butterfly",
@@ -28,14 +28,15 @@
           "profileKey": "Sweet"
         },
         {
-          "label": "Airy freshness",
-          "profileKey": "Fresh"
+          "label": "Airy softness",
+          "profileKey": "Airy"
         }
       ],
       "scentProfile": {
+        "Airy": 2,
         "Berry": 2,
+        "Creamy": 1,
         "Floral": 3,
-        "Fresh": 2,
         "Sweet": 2,
         "Vanilla": 2
       },
@@ -146,15 +147,11 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Mahogany / woods",
+          "label": "Mahogany & teakwood / rich woods",
           "profileKey": "Woody"
         },
         {
-          "label": "Black teakwood",
-          "profileKey": "Woody"
-        },
-        {
-          "label": "Lavender",
+          "label": "Lavender / aromatic floral",
           "profileKey": "Floral"
         },
         {
