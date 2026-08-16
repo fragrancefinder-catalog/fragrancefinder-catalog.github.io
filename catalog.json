@@ -1,7 +1,99 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T01:52:25.309Z",
+  "generatedAt": "2026-08-16T02:28:27.695Z",
   "readyFragrances": [
+    {
+      "name": "A Thousand Wishes",
+      "officialNotes": [
+        "Sparkling Fruit",
+        "Peony",
+        "Amber",
+        "Amaretto"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sparkling fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Peony / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Sparkling quality",
+          "profileKey": "Sparkling"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 2,
+        "Floral": 2,
+        "Fruity": 2,
+        "Sparkling": 2,
+        "Sweet": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Warm",
+        "Celebratory",
+        "Polished"
+      ],
+      "summary": "Sparkling fruit and florals over warm amber.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "At the Beach",
+      "officialNotes": [
+        "Coconut",
+        "Bergamot",
+        "Sea Salt",
+        "Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Coconut",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sea-salt / aquatic quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Citrus": 1,
+        "Coconut": 3,
+        "Fresh": 2,
+        "Musk": 2
+      },
+      "styleTags": [
+        "Casual",
+        "Summer",
+        "Beachy",
+        "Airy"
+      ],
+      "summary": "Beachy coconut with fresh sea air, citrus and soft musk.",
+      "availability": "uncertain"
+    },
     {
       "name": "Champagne Toast",
       "officialNotes": [
@@ -34,64 +126,61 @@
       "scentProfile": {
         "Berry": 3,
         "Citrus": 2,
-        "Sweet": 2,
         "Fresh": 2,
+        "Fruity": 3,
         "Sparkling": 3,
-        "Fruity": 3
+        "Sweet": 2
       },
       "styleTags": [
-        "Bright",
         "Playful",
-        "Easygoing"
+        "Easygoing",
+        "Bright"
       ],
       "summary": "Bright, bubbly fruit with sweet berries and citrus.",
       "availability": "uncertain"
     },
     {
-      "name": "Warm Vanilla Sugar",
+      "name": "Gingham Gorgeous",
       "officialNotes": [
-        "Vanilla",
-        "Sugar",
-        "Jasmine",
-        "Sandalwood"
+        "Strawberry",
+        "Peach",
+        "Peony"
       ],
       "feedbackOptions": [
         {
-          "label": "Vanilla",
-          "profileKey": "Vanilla"
+          "label": "Strawberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Peach / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Peony / floral",
+          "profileKey": "Floral"
         },
         {
           "label": "Sweetness",
           "profileKey": "Sweet"
         },
         {
-          "label": "Jasmine / floral",
-          "profileKey": "Floral"
-        },
-        {
-          "label": "Sandalwood / woods",
-          "profileKey": "Woody"
-        },
-        {
-          "label": "Creamy softness",
-          "profileKey": "Creamy"
+          "label": "Freshness",
+          "profileKey": "Fresh"
         }
       ],
       "scentProfile": {
-        "Vanilla": 3,
-        "Sweet": 3,
-        "Gourmand": 2,
-        "Creamy": 2,
-        "Floral": 1,
-        "Woody": 1,
-        "Warm": 2
+        "Berry": 3,
+        "Floral": 2,
+        "Fresh": 2,
+        "Fruity": 2,
+        "Sweet": 2
       },
       "styleTags": [
-        "Cozy",
-        "Soft",
-        "Comforting"
+        "Playful",
+        "Daytime",
+        "Bright"
       ],
-      "summary": "A soft, cozy vanilla fragrance with sugar and gentle woods.",
+      "summary": "Juicy strawberry and peach softened by fresh florals.",
       "availability": "uncertain"
     },
     {
@@ -126,65 +215,21 @@
         }
       ],
       "scentProfile": {
-        "Berry": 2,
         "Amber": 3,
+        "Berry": 2,
         "Floral": 2,
-        "Patchouli": 2,
         "Musk": 3,
+        "Patchouli": 2,
         "Sweet": 1,
         "Warm": 3
       },
       "styleTags": [
         "Dark",
         "Bold",
-        "Evening",
-        "Rich"
+        "Rich",
+        "Evening"
       ],
       "summary": "Rich berries, amber and musk with a deeper evening character.",
-      "availability": "uncertain"
-    },
-    {
-      "name": "Gingham Gorgeous",
-      "officialNotes": [
-        "Strawberry",
-        "Peach",
-        "Peony"
-      ],
-      "feedbackOptions": [
-        {
-          "label": "Strawberry / berries",
-          "profileKey": "Berry"
-        },
-        {
-          "label": "Peach / fruit",
-          "profileKey": "Fruity"
-        },
-        {
-          "label": "Peony / floral",
-          "profileKey": "Floral"
-        },
-        {
-          "label": "Sweetness",
-          "profileKey": "Sweet"
-        },
-        {
-          "label": "Freshness",
-          "profileKey": "Fresh"
-        }
-      ],
-      "scentProfile": {
-        "Berry": 3,
-        "Fruity": 2,
-        "Floral": 2,
-        "Sweet": 2,
-        "Fresh": 2
-      },
-      "styleTags": [
-        "Bright",
-        "Playful",
-        "Daytime"
-      ],
-      "summary": "Juicy strawberry and peach softened by fresh florals.",
       "availability": "uncertain"
     },
     {
@@ -216,108 +261,16 @@
       "scentProfile": {
         "Floral": 3,
         "Fruity": 1,
-        "Woody": 2,
         "Powdery": 2,
-        "Sweet": 1
+        "Sweet": 1,
+        "Woody": 2
       },
       "styleTags": [
-        "Classic",
+        "Traditional",
         "Soft",
-        "Traditional"
+        "Classic"
       ],
       "summary": "A classic floral with soft fruit and warm woods.",
-      "availability": "uncertain"
-    },
-    {
-      "name": "At the Beach",
-      "officialNotes": [
-        "Coconut",
-        "Bergamot",
-        "Sea Salt",
-        "Musk"
-      ],
-      "feedbackOptions": [
-        {
-          "label": "Coconut",
-          "profileKey": "Coconut"
-        },
-        {
-          "label": "Bergamot / citrus",
-          "profileKey": "Citrus"
-        },
-        {
-          "label": "Sea-salt / aquatic quality",
-          "profileKey": "Aquatic"
-        },
-        {
-          "label": "Freshness",
-          "profileKey": "Fresh"
-        },
-        {
-          "label": "Musk",
-          "profileKey": "Musk"
-        }
-      ],
-      "scentProfile": {
-        "Coconut": 3,
-        "Citrus": 1,
-        "Aquatic": 3,
-        "Fresh": 2,
-        "Musk": 2
-      },
-      "styleTags": [
-        "Beachy",
-        "Airy",
-        "Casual",
-        "Summer"
-      ],
-      "summary": "Beachy coconut with fresh sea air, citrus and soft musk.",
-      "availability": "uncertain"
-    },
-    {
-      "name": "A Thousand Wishes",
-      "officialNotes": [
-        "Sparkling Fruit",
-        "Peony",
-        "Amber",
-        "Amaretto"
-      ],
-      "feedbackOptions": [
-        {
-          "label": "Sparkling fruit",
-          "profileKey": "Fruity"
-        },
-        {
-          "label": "Peony / floral",
-          "profileKey": "Floral"
-        },
-        {
-          "label": "Amber",
-          "profileKey": "Amber"
-        },
-        {
-          "label": "Sweetness",
-          "profileKey": "Sweet"
-        },
-        {
-          "label": "Sparkling quality",
-          "profileKey": "Sparkling"
-        }
-      ],
-      "scentProfile": {
-        "Fruity": 2,
-        "Floral": 2,
-        "Amber": 2,
-        "Sweet": 2,
-        "Sparkling": 2,
-        "Warm": 2
-      },
-      "styleTags": [
-        "Celebratory",
-        "Polished",
-        "Warm"
-      ],
-      "summary": "Sparkling fruit and florals over warm amber.",
       "availability": "uncertain"
     },
     {
@@ -347,18 +300,65 @@
       ],
       "scentProfile": {
         "Berry": 3,
-        "Gourmand": 3,
         "Creamy": 3,
+        "Gourmand": 3,
         "Sweet": 3,
         "Vanilla": 2
       },
       "styleTags": [
-        "Dessert",
         "Indulgent",
-        "Rich",
-        "Playful"
+        "Playful",
+        "Dessert",
+        "Rich"
       ],
       "summary": "A very sweet strawberry dessert-style fragrance.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Warm Vanilla Sugar",
+      "officialNotes": [
+        "Vanilla",
+        "Sugar",
+        "Jasmine",
+        "Sandalwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Jasmine / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Creamy softness",
+          "profileKey": "Creamy"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 2,
+        "Floral": 1,
+        "Gourmand": 2,
+        "Sweet": 3,
+        "Vanilla": 3,
+        "Warm": 2,
+        "Woody": 1
+      },
+      "styleTags": [
+        "Comforting",
+        "Cozy",
+        "Soft"
+      ],
+      "summary": "A soft, cozy vanilla fragrance with sugar and gentle woods.",
       "availability": "uncertain"
     }
   ],
