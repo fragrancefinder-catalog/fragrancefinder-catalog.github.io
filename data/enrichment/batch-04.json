@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-04",
+  "description": "Gap-filling recommendation enrichment emphasizing creamy gourmand, aquatic/clean, strong floral/green and amber/woody scent profiles.",
+  "fragrances": [
+    {
+      "name": "Caramel Vanilla",
+      "officialNotes": [
+        "Buttery Caramel",
+        "Melted Brown Sugar",
+        "Whipped Vanilla Cream"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Buttery caramel / dessert quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Brown-sugar sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Whipped creamy quality",
+          "profileKey": "Creamy"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 3,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Vanilla": 3,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Gourmand",
+        "Creamy",
+        "Sweet",
+        "Dessert"
+      ],
+      "summary": "Buttery caramel and melted brown sugar folded into rich whipped vanilla cream.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pistachio Milk & Honey",
+      "officialNotes": [
+        "Toasted Pistachio",
+        "Cozy Shea Butter",
+        "Whipped Vanilla Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Toasted pistachio / nutty dessert quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Shea-butter creaminess",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 3,
+        "Gourmand": 3,
+        "Musk": 2,
+        "Sweet": 3,
+        "Vanilla": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Gourmand",
+        "Nutty",
+        "Creamy",
+        "Cozy"
+      ],
+      "summary": "Toasted pistachio and creamy shea softened by sweet whipped vanilla musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Ocean",
+      "officialNotes": [
+        "Blue Cypress",
+        "Vetiver",
+        "Coastal Air"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Blue cypress / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Vetiver / earthy woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Coastal-air / aquatic quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Fresh": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Aquatic",
+        "Fresh",
+        "Crisp",
+        "Woodsy"
+      ],
+      "summary": "Fresh coastal air over blue cypress and smooth, grounded vetiver.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Lakeside Morning",
+      "officialNotes": [
+        "Crisp Autumn Air",
+        "White Driftwood",
+        "Green Apple"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp-air freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "White driftwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Green apple / fruit",
+          "profileKey": "Fruity"
+        }
+      ],
+      "scentProfile": {
+        "Fresh": 3,
+        "Fruity": 2,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Fresh",
+        "Crisp",
+        "Woodsy",
+        "Outdoorsy"
+      ],
+      "summary": "Crisp outdoor air with clean driftwood and a bright touch of green apple.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Fresh Cut Lilacs",
+      "officialNotes": [
+        "Lilac Bouquets",
+        "Dewy Greens",
+        "Soft Spring Air"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Lilac / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Dewy greens / green quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Fresh spring-air quality",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Fresh": 3,
+        "Herbal": 2
+      },
+      "styleTags": [
+        "Floral",
+        "Fresh",
+        "Green",
+        "Spring"
+      ],
+      "summary": "Fresh-cut lilacs surrounded by dewy greenery and cool spring air.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "White Gardenia",
+      "officialNotes": [
+        "Classic White Gardenia",
+        "Fresh Picked Greenery",
+        "Sweet Apple",
+        "White Tuberose"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Gardenia and tuberose / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Fresh greenery",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Sweet apple / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Fresh": 2,
+        "Fruity": 1,
+        "Herbal": 2,
+        "Sweet": 1
+      },
+      "styleTags": [
+        "Floral",
+        "Lush",
+        "Green",
+        "Fresh"
+      ],
+      "summary": "Lush white florals layered with fresh greenery and a light touch of sweet apple.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sunrise Woods",
+      "officialNotes": [
+        "Creamy Sandalwood",
+        "Sweet Berries",
+        "Cozy Cashmere"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Sweet berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Creamy softness",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Cozy warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Creamy": 2,
+        "Sweet": 2,
+        "Warm": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Warm",
+        "Woodsy",
+        "Soft",
+        "Cozy"
+      ],
+      "summary": "Creamy sandalwood and cozy cashmere warmed by softly sweet berries.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Dreamy Amber",
+      "officialNotes": [
+        "Sheer Amber",
+        "White Orchid Petals",
+        "Soft Sandalwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "White orchid / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 3,
+        "Floral": 2,
+        "Warm": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Amber",
+        "Warm",
+        "Soft",
+        "Woodsy"
+      ],
+      "summary": "Sheer amber and soft sandalwood warmed by delicate white orchid petals.",
+      "availability": "uncertain"
+    }
+  ]
+}
