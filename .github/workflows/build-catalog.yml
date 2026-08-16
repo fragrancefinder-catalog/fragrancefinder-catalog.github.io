@@ -24,6 +24,9 @@ jobs:
       - name: Build catalog.json
         run: node scripts/build-catalog.js
 
+      - name: Validate trait taxonomy
+        run: node scripts/validate-traits.js
+
       - name: Validate generated JSON
         shell: bash
         run: |
@@ -187,6 +190,10 @@ jobs:
           );
 
           console.log(
+            'Trait vocabulary validated against `data/trait-taxonomy.json`.'
+          );
+
+          console.log(
             'Bootstrap observations removed.'
           );
           NODE
@@ -204,5 +211,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Build catalog from enrichment data"
+          git commit -m "Build catalog with validated trait vocabulary"
           git push
