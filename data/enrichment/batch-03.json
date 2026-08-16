@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batch": "batch-03",
-  "description": "Recommendation enrichment emphasizing clean/fresh, woody/tropical, warm/spiced, amber, sparkling floral and dark fruity-floral contrasts.",
+  "description": "Contrast-based recommendation enrichment migrated to normalized scent vocabulary v2.",
   "fragrances": [
     {
       "name": "Laundry Day",
@@ -12,8 +12,12 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Fresh-air cleanliness",
-          "profileKey": "Fresh"
+          "label": "Clean-laundry quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Fresh, breezy air",
+          "profileKey": "Airy"
         },
         {
           "label": "Eucalyptus / herbal quality",
@@ -25,7 +29,9 @@
         }
       ],
       "scentProfile": {
-        "Floral": 2,
+        "Airy": 2,
+        "Clean": 3,
+        "Floral": 1,
         "Fresh": 3,
         "Herbal": 2
       },
@@ -48,7 +54,7 @@
       "feedbackOptions": [
         {
           "label": "Aloe leaf / green quality",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
           "label": "Bergamot / citrus",
@@ -67,7 +73,8 @@
         "Aquatic": 2,
         "Citrus": 2,
         "Fresh": 3,
-        "Herbal": 2
+        "Green": 2,
+        "Herbal": 1
       },
       "styleTags": [
         "Fresh",
@@ -132,22 +139,24 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Crisp red apple / fruit",
-          "profileKey": "Fruity"
+          "label": "Crisp red apple",
+          "profileKey": "Apple"
         },
         {
           "label": "Golden nectar / sweetness",
           "profileKey": "Sweet"
         },
         {
-          "label": "Clove spice / warmth",
-          "profileKey": "Warm"
+          "label": "Clove / spice",
+          "profileKey": "Spicy"
         }
       ],
       "scentProfile": {
-        "Fruity": 3,
+        "Apple": 3,
+        "Fruity": 1,
+        "Spicy": 3,
         "Sweet": 2,
-        "Warm": 3
+        "Warm": 2
       },
       "styleTags": [
         "Spiced",
