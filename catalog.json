@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T02:28:27.695Z",
+  "generatedAt": "2026-08-16T02:39:37.989Z",
   "readyFragrances": [
     {
       "name": "A Thousand Wishes",
@@ -95,6 +95,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Butterfly",
+      "officialNotes": [
+        "Raspberry Nectar",
+        "Iris Petals",
+        "Airy Vanilla"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Raspberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Iris / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Airy freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Floral": 3,
+        "Fresh": 2,
+        "Sweet": 2,
+        "Vanilla": 2
+      },
+      "styleTags": [
+        "Airy",
+        "Soft",
+        "Fruity Floral",
+        "Daytime"
+      ],
+      "summary": "Airy raspberry and iris softened by sweet vanilla.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Champagne Toast",
       "officialNotes": [
         "Bubbly Champagne",
@@ -140,6 +185,45 @@
       "availability": "uncertain"
     },
     {
+      "name": "Eucalyptus Spearmint",
+      "officialNotes": [
+        "Eucalyptus Oil",
+        "Spearmint Oil"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Eucalyptus / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Spearmint / mint",
+          "profileKey": "Mint"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Cooling quality",
+          "profileKey": "Cooling"
+        }
+      ],
+      "scentProfile": {
+        "Cooling": 3,
+        "Fresh": 3,
+        "Herbal": 3,
+        "Mint": 3
+      },
+      "styleTags": [
+        "Fresh",
+        "Spa",
+        "Cooling",
+        "Aromatic"
+      ],
+      "summary": "Cooling eucalyptus and spearmint with a crisp spa-like freshness.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Gingham Gorgeous",
       "officialNotes": [
         "Strawberry",
@@ -181,6 +265,56 @@
         "Bright"
       ],
       "summary": "Juicy strawberry and peach softened by fresh florals.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "In the Stars",
+      "officialNotes": [
+        "Starflower",
+        "Sandalwood Musk",
+        "Sugared Tangelo",
+        "White Agarwood",
+        "Radiant Amber"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Starflower / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sandalwood musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Sugared tangelo / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Agarwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 3,
+        "Citrus": 2,
+        "Floral": 1,
+        "Musk": 2,
+        "Sparkling": 2,
+        "Sweet": 2,
+        "Warm": 2,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Sparkling",
+        "Warm",
+        "Polished",
+        "Woodsy"
+      ],
+      "summary": "Sparkling citrus and florals layered over amber, musk and smooth woods.",
       "availability": "uncertain"
     },
     {
@@ -271,6 +405,45 @@
         "Classic"
       ],
       "summary": "A classic floral with soft fruit and warm woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Mahogany Teakwood",
+      "officialNotes": [
+        "Mahogany",
+        "Black Teakwood",
+        "Lavender"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Mahogany / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Black teakwood",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Lavender",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 1,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Woodsy",
+        "Rich",
+        "Classic",
+        "Warm"
+      ],
+      "summary": "Rich mahogany and dark teakwood softened by aromatic lavender.",
       "availability": "uncertain"
     },
     {
