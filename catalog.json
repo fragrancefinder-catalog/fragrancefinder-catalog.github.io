@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T04:19:33.967Z",
+  "generatedAt": "2026-08-16T04:26:54.768Z",
   "noteEvidenceSummary": {
     "records": 7,
     "evidenceObservations": 14,
@@ -235,14 +235,15 @@
           "profileKey": "Sweet"
         },
         {
-          "label": "Airy freshness",
-          "profileKey": "Fresh"
+          "label": "Airy softness",
+          "profileKey": "Airy"
         }
       ],
       "scentProfile": {
+        "Airy": 2,
         "Berry": 2,
+        "Creamy": 1,
         "Floral": 3,
-        "Fresh": 2,
         "Sweet": 2,
         "Vanilla": 2
       },
@@ -395,28 +396,29 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Brewed coffee / roasted quality",
-          "profileKey": "Gourmand"
+          "label": "Coffee / roasted quality",
+          "profileKey": "Coffee"
         },
         {
           "label": "Vanilla",
           "profileKey": "Vanilla"
         },
         {
-          "label": "Irish whiskey / boozy warmth",
-          "profileKey": "Warm"
+          "label": "Irish whiskey / boozy quality",
+          "profileKey": "Boozy"
         },
         {
-          "label": "Warm woody quality",
-          "profileKey": "Woody"
+          "label": "Warmth",
+          "profileKey": "Warm"
         }
       ],
       "scentProfile": {
-        "Gourmand": 2,
+        "Boozy": 3,
+        "Coffee": 2,
+        "Gourmand": 1,
         "Sweet": 1,
         "Vanilla": 2,
-        "Warm": 3,
-        "Woody": 2
+        "Warm": 2
       },
       "styleTags": [
         "Warm",
@@ -598,7 +600,7 @@
         },
         {
           "label": "Dewy greens / green quality",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
           "label": "Fresh spring-air quality",
@@ -608,7 +610,7 @@
       "scentProfile": {
         "Floral": 3,
         "Fresh": 3,
-        "Herbal": 2
+        "Green": 2
       },
       "styleTags": [
         "Floral",
@@ -629,7 +631,7 @@
       "feedbackOptions": [
         {
           "label": "Aloe leaf / green quality",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
           "label": "Bergamot / citrus",
@@ -648,7 +650,8 @@
         "Aquatic": 2,
         "Citrus": 2,
         "Fresh": 3,
-        "Herbal": 2
+        "Green": 2,
+        "Herbal": 1
       },
       "styleTags": [
         "Fresh",
@@ -676,8 +679,8 @@
           "profileKey": "Aquatic"
         },
         {
-          "label": "Oak moss / woods",
-          "profileKey": "Woody"
+          "label": "Oak moss / earthy quality",
+          "profileKey": "Earthy"
         },
         {
           "label": "Freshness",
@@ -687,8 +690,8 @@
       "scentProfile": {
         "Aquatic": 3,
         "Citrus": 2,
-        "Fresh": 3,
-        "Woody": 1
+        "Earthy": 2,
+        "Fresh": 3
       },
       "styleTags": [
         "Fresh",
@@ -1022,8 +1025,12 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Fresh-air cleanliness",
-          "profileKey": "Fresh"
+          "label": "Clean-laundry quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Fresh, breezy air",
+          "profileKey": "Airy"
         },
         {
           "label": "Eucalyptus / herbal quality",
@@ -1035,7 +1042,9 @@
         }
       ],
       "scentProfile": {
-        "Floral": 2,
+        "Airy": 2,
+        "Clean": 3,
+        "Floral": 1,
         "Fresh": 3,
         "Herbal": 2
       },
@@ -1057,22 +1066,24 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Crisp red apple / fruit",
-          "profileKey": "Fruity"
+          "label": "Crisp red apple",
+          "profileKey": "Apple"
         },
         {
           "label": "Golden nectar / sweetness",
           "profileKey": "Sweet"
         },
         {
-          "label": "Clove spice / warmth",
-          "profileKey": "Warm"
+          "label": "Clove / spice",
+          "profileKey": "Spicy"
         }
       ],
       "scentProfile": {
-        "Fruity": 3,
+        "Apple": 3,
+        "Fruity": 1,
+        "Spicy": 3,
         "Sweet": 2,
-        "Warm": 3
+        "Warm": 2
       },
       "styleTags": [
         "Spiced",
@@ -1137,15 +1148,11 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Mahogany / woods",
+          "label": "Mahogany & teakwood / rich woods",
           "profileKey": "Woody"
         },
         {
-          "label": "Black teakwood",
-          "profileKey": "Woody"
-        },
-        {
-          "label": "Lavender",
+          "label": "Lavender / aromatic floral",
           "profileKey": "Floral"
         },
         {
@@ -1177,12 +1184,12 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Pumpkin latte / coffee-shop quality",
-          "profileKey": "Gourmand"
+          "label": "Pumpkin latte / coffeehouse quality",
+          "profileKey": "Coffee"
         },
         {
-          "label": "Toasted marshmallow / sweetness",
-          "profileKey": "Sweet"
+          "label": "Toasted marshmallow / dessert quality",
+          "profileKey": "Gourmand"
         },
         {
           "label": "Creamy sandalwood / woods",
@@ -1195,14 +1202,19 @@
         {
           "label": "Creamy quality",
           "profileKey": "Creamy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
         }
       ],
       "scentProfile": {
+        "Coffee": 2,
         "Creamy": 2,
         "Gourmand": 3,
         "Musk": 1,
         "Sweet": 3,
-        "Warm": 3,
+        "Warm": 2,
         "Woody": 1
       },
       "styleTags": [
@@ -1227,8 +1239,8 @@
           "profileKey": "Woody"
         },
         {
-          "label": "Vetiver / earthy woods",
-          "profileKey": "Woody"
+          "label": "Vetiver / earthy quality",
+          "profileKey": "Earthy"
         },
         {
           "label": "Coastal-air / aquatic quality",
@@ -1241,6 +1253,7 @@
       ],
       "scentProfile": {
         "Aquatic": 3,
+        "Earthy": 2,
         "Fresh": 3,
         "Woody": 2
       },
@@ -1262,8 +1275,8 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Toasted pistachio / nutty dessert quality",
-          "profileKey": "Gourmand"
+          "label": "Toasted pistachio / nutty quality",
+          "profileKey": "Nutty"
         },
         {
           "label": "Shea-butter creaminess",
@@ -1284,9 +1297,10 @@
       ],
       "scentProfile": {
         "Creamy": 3,
-        "Gourmand": 3,
+        "Gourmand": 2,
         "Musk": 2,
-        "Sweet": 3,
+        "Nutty": 3,
+        "Sweet": 2,
         "Vanilla": 2,
         "Warm": 2
       },
@@ -1362,14 +1376,20 @@
           "profileKey": "Gourmand"
         },
         {
-          "label": "Pumpkin spice / warmth",
-          "profileKey": "Warm"
+          "label": "Pumpkin spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Nutty quality",
+          "profileKey": "Nutty"
         }
       ],
       "scentProfile": {
         "Gourmand": 3,
+        "Nutty": 3,
+        "Spicy": 3,
         "Sweet": 3,
-        "Warm": 3
+        "Warm": 2
       },
       "styleTags": [
         "Gourmand",
@@ -1653,11 +1673,11 @@
         },
         {
           "label": "Fresh greenery",
-          "profileKey": "Herbal"
+          "profileKey": "Green"
         },
         {
-          "label": "Sweet apple / fruit",
-          "profileKey": "Fruity"
+          "label": "Sweet apple",
+          "profileKey": "Apple"
         },
         {
           "label": "Freshness",
@@ -1669,10 +1689,10 @@
         }
       ],
       "scentProfile": {
+        "Apple": 1,
         "Floral": 3,
-        "Fresh": 2,
-        "Fruity": 1,
-        "Herbal": 2,
+        "Fresh": 1,
+        "Green": 2,
         "Sweet": 1
       },
       "styleTags": [
@@ -1732,8 +1752,8 @@
           "profileKey": "Citrus"
         },
         {
-          "label": "White tea",
-          "profileKey": "Fresh"
+          "label": "White tea / brewed tea quality",
+          "profileKey": "Tea"
         },
         {
           "label": "Sage / herbal quality",
@@ -1746,8 +1766,10 @@
       ],
       "scentProfile": {
         "Citrus": 2,
-        "Fresh": 3,
-        "Herbal": 3
+        "Earthy": 1,
+        "Fresh": 2,
+        "Herbal": 2,
+        "Tea": 3
       },
       "styleTags": [
         "Fresh",
