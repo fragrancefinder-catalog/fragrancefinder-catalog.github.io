@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T03:15:39.982Z",
+  "generatedAt": "2026-08-16T04:06:03.621Z",
+  "noteEvidenceSummary": {
+    "records": 7,
+    "evidenceObservations": 13,
+    "formatVariantRecords": 6,
+    "readyNoteMismatches": 4
+  },
   "readyFragrances": [
     {
       "name": "A Thousand Wishes",
@@ -46,7 +52,45 @@
         "Polished"
       ],
       "summary": "Sparkling fruit and florals over warm amber.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "atw-body-mist",
+      "verifiedDisplayNotes": [
+        "Pink Prosecco",
+        "Sparkling Quince",
+        "Crystal Peonies",
+        "Gilded Amber",
+        "Amaretto Crème"
+      ],
+      "noteEvidence": [
+        {
+          "id": "atw-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/a-thousand-wishes-fine-fragrance-mist-028005120",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Pink Prosecco",
+            "Sparkling Quince",
+            "Crystal Peonies",
+            "Gilded Amber",
+            "Amaretto Crème"
+          ]
+        },
+        {
+          "id": "atw-single-wick",
+          "family": "candle",
+          "productType": "Single Wick Candle",
+          "sourceURL": "https://www.bathandbodyworks.com/p/a-thousand-wishes-single-wick-candle-028008202.html",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Pink Prosecco",
+            "Crystal Peonies",
+            "Gilded Amber",
+            "Amaretto Crème"
+          ]
+        }
+      ]
     },
     {
       "name": "At the Beach",
@@ -92,7 +136,32 @@
         "Airy"
       ],
       "summary": "Beachy coconut with fresh sea air, citrus and soft musk.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "singleSource",
+      "noteDisplaySourceId": "atb-body-mist",
+      "verifiedDisplayNotes": [
+        "White Frangipani Blossoms",
+        "Toasted Coconut",
+        "Bergamot Waters",
+        "Sea Salt Breeze",
+        "Sunkissed Musk"
+      ],
+      "noteEvidence": [
+        {
+          "id": "atb-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/at-the-beach-fine-fragrance-mist-028015114",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "White Frangipani Blossoms",
+            "Toasted Coconut",
+            "Bergamot Waters",
+            "Sea Salt Breeze",
+            "Sunkissed Musk"
+          ]
+        }
+      ]
     },
     {
       "name": "Autumn Drive",
@@ -355,7 +424,40 @@
         "Cozy"
       ],
       "summary": "Warm coffee and Irish whiskey softened by a smooth hint of vanilla.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "cw-wallflower",
+      "verifiedDisplayNotes": [
+        "Lightly Brewed Coffee",
+        "Hint of Vanilla",
+        "Bold Irish Whiskey"
+      ],
+      "noteEvidence": [
+        {
+          "id": "cw-wallflower",
+          "family": "wallflower",
+          "productType": "Wallflowers Fragrance Refill",
+          "sourceURL": "https://www.bathandbodyworks.com/p/coffee-and-whiskey-wallflowers-fragrance-refill-028013296",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Lightly Brewed Coffee",
+            "Hint of Vanilla",
+            "Bold Irish Whiskey"
+          ]
+        },
+        {
+          "id": "cw-three-wick",
+          "family": "candle",
+          "productType": "3-Wick Candle",
+          "sourceURL": "https://www.bathandbodyworks.com/p/coffee-and-whiskey-3-wick-candle-028030771",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Bold Irish Whiskey",
+            "Splash of Vanilla",
+            "Hint of Coffee"
+          ]
+        }
+      ]
     },
     {
       "name": "Dreamy Amber",
@@ -777,7 +879,44 @@
         "Evening"
       ],
       "summary": "Rich berries, amber and musk with a deeper evening character.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "itn-body-mist",
+      "verifiedDisplayNotes": [
+        "Raspberry Noir",
+        "Amber Crystals",
+        "Velvety Rose Petals",
+        "Creamy Patchouli",
+        "Mocha Musk"
+      ],
+      "noteEvidence": [
+        {
+          "id": "itn-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-fine-fragrance-mist-028003660",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Raspberry Noir",
+            "Amber Crystals",
+            "Velvety Rose Petals",
+            "Creamy Patchouli",
+            "Mocha Musk"
+          ]
+        },
+        {
+          "id": "itn-cleansing-bar",
+          "family": "bodyCare",
+          "productType": "Shea Butter Cleansing Bar",
+          "sourceURL": "https://www.bathandbodyworks.com/p/into-the-night-shea-butter-cleansing-bar-026468834",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Dark Berries",
+            "Midnight Jasmine",
+            "Rich Amber"
+          ]
+        }
+      ]
     },
     {
       "name": "Japanese Cherry Blossom",
@@ -1441,7 +1580,43 @@
         "Soft"
       ],
       "summary": "A soft, cozy vanilla fragrance with sugar and gentle woods.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "wvs-body-mist",
+      "verifiedDisplayNotes": [
+        "Intoxicating Vanilla",
+        "White Orchid",
+        "Sparkling Sugar",
+        "Fresh Jasmine",
+        "Creamy Sandalwood"
+      ],
+      "noteEvidence": [
+        {
+          "id": "wvs-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-fine-fragrance-mist-028011604",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Intoxicating Vanilla",
+            "White Orchid",
+            "Sparkling Sugar",
+            "Fresh Jasmine",
+            "Creamy Sandalwood"
+          ]
+        },
+        {
+          "id": "wvs-pocketbac",
+          "family": "sanitizer",
+          "productType": "Moisturizing PocketBac Hand Sanitizer",
+          "sourceURL": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-moisturizing-pocketbac-hand-sanitizer-028004439",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Creamy Vanilla",
+            "Sparkling Sugar Crystals"
+          ]
+        }
+      ]
     },
     {
       "name": "White Gardenia",
@@ -1487,7 +1662,42 @@
         "Fresh"
       ],
       "summary": "Lush white florals layered with fresh greenery and a light touch of sweet apple.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "wg-three-wick",
+      "verifiedDisplayNotes": [
+        "Classic White Gardenia",
+        "Fresh Picked Greenery",
+        "Sweet Apple",
+        "White Tuberose"
+      ],
+      "noteEvidence": [
+        {
+          "id": "wg-three-wick",
+          "family": "candle",
+          "productType": "3-Wick Candle",
+          "sourceURL": "https://www.bathandbodyworks.com/p/white-gardenia-3-wick-candle-028029559",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Classic White Gardenia",
+            "Fresh Picked Greenery",
+            "Sweet Apple",
+            "White Tuberose"
+          ]
+        },
+        {
+          "id": "wg-wallflower",
+          "family": "wallflower",
+          "productType": "Wallflowers Fragrance Refill",
+          "sourceURL": "https://www.bathandbodyworks.com/es-us/p/white-gardenia-wallflowers-fragrance-refill-028013277",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Gardenia Petals",
+            "Sweet Apple",
+            "White Tuberose"
+          ]
+        }
+      ]
     },
     {
       "name": "White Tea & Sage",
@@ -1526,7 +1736,40 @@
         "Airy"
       ],
       "summary": "Bright bergamot and white tea with a clean, herbal sage finish.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "formatVariant",
+      "noteDisplaySourceId": "wts-wallflower",
+      "verifiedDisplayNotes": [
+        "Sparkling Bergamot",
+        "White Tea",
+        "Fresh Sage"
+      ],
+      "noteEvidence": [
+        {
+          "id": "wts-wallflower",
+          "family": "wallflower",
+          "productType": "Wallflowers Fragrance Refill",
+          "sourceURL": "https://www.bathandbodyworks.com/p/white-tea-and-sage-wallflowers-fragrance-refill-028008671",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Sparkling Bergamot",
+            "White Tea",
+            "Fresh Sage"
+          ]
+        },
+        {
+          "id": "wts-pocketbac",
+          "family": "sanitizer",
+          "productType": "PocketBac Hand Sanitizer",
+          "sourceURL": "https://www.bathandbodyworks.com/p/white-tea-and-sage-pocketbac-hand-sanitizer-028004916",
+          "verifiedAt": "2026-08-15",
+          "notes": [
+            "Fresh Tea",
+            "Lemon",
+            "Herbs"
+          ]
+        }
+      ]
     }
   ],
   "scentIndex": [
