@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T02:39:37.989Z",
+  "generatedAt": "2026-08-16T03:01:40.576Z",
   "readyFragrances": [
     {
       "name": "A Thousand Wishes",
@@ -140,6 +140,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Champagne Apple & Honey",
+      "officialNotes": [
+        "Crisp Apple",
+        "Sparkling Champagne",
+        "Jasmine Honey"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp apple / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sparkling Champagne / effervescence",
+          "profileKey": "Sparkling"
+        },
+        {
+          "label": "Jasmine honey / floral quality",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Honeyed sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Fresh crispness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 2,
+        "Fresh": 2,
+        "Fruity": 3,
+        "Sparkling": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Fruity",
+        "Sparkling",
+        "Bright",
+        "Fresh"
+      ],
+      "summary": "Crisp apple and sparkling Champagne brightened by softly sweet jasmine honey.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Champagne Toast",
       "officialNotes": [
         "Bubbly Champagne",
@@ -185,6 +230,47 @@
       "availability": "uncertain"
     },
     {
+      "name": "Coffee & Whiskey",
+      "officialNotes": [
+        "Lightly Brewed Coffee",
+        "Hint of Vanilla",
+        "Bold Irish Whiskey"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Brewed coffee / roasted quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Irish whiskey / boozy warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Warm woody quality",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Gourmand": 2,
+        "Sweet": 1,
+        "Vanilla": 2,
+        "Warm": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Warm",
+        "Roasted",
+        "Rich",
+        "Cozy"
+      ],
+      "summary": "Warm coffee and Irish whiskey softened by a smooth hint of vanilla.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Eucalyptus Spearmint",
       "officialNotes": [
         "Eucalyptus Oil",
@@ -221,6 +307,91 @@
         "Aromatic"
       ],
       "summary": "Cooling eucalyptus and spearmint with a crisp spa-like freshness.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Flannel",
+      "officialNotes": [
+        "Fresh Bergamot",
+        "Heirloom Mahogany",
+        "Soft Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Mahogany / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Fresh": 2,
+        "Musk": 2,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Woodsy",
+        "Warm",
+        "Fresh",
+        "Comforting"
+      ],
+      "summary": "Fresh bergamot over warm mahogany and a soft, comforting musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Freshwater",
+      "officialNotes": [
+        "Italian Bergamot",
+        "Mountain Spring Water",
+        "Oak Moss"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Spring water / aquatic quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Oak moss / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Citrus": 2,
+        "Fresh": 3,
+        "Woody": 1
+      },
+      "styleTags": [
+        "Fresh",
+        "Clean",
+        "Aquatic",
+        "Crisp"
+      ],
+      "summary": "Crisp bergamot and spring water grounded by soft oak moss.",
       "availability": "uncertain"
     },
     {
@@ -265,6 +436,46 @@
         "Bright"
       ],
       "summary": "Juicy strawberry and peach softened by fresh florals.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Honey Wildflower",
+      "officialNotes": [
+        "Crisp Pear",
+        "Fresh Wildflowers",
+        "Sweet Honey"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp pear / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Wildflowers / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Honeyed sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Fresh": 2,
+        "Fruity": 2,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Floral",
+        "Fresh",
+        "Soft",
+        "Golden"
+      ],
+      "summary": "Fresh wildflowers and crisp pear sweetened with soft golden honey.",
       "availability": "uncertain"
     },
     {
@@ -447,6 +658,88 @@
       "availability": "uncertain"
     },
     {
+      "name": "Marshmallow Pumpkin Latte",
+      "officialNotes": [
+        "Pumpkin Latte",
+        "Toasted Marshmallow",
+        "Creamy Sandalwood",
+        "Praline Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Pumpkin latte / coffee-shop quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Toasted marshmallow / sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Creamy sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Praline musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Creamy quality",
+          "profileKey": "Creamy"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 2,
+        "Gourmand": 3,
+        "Musk": 1,
+        "Sweet": 3,
+        "Warm": 3,
+        "Woody": 1
+      },
+      "styleTags": [
+        "Gourmand",
+        "Cozy",
+        "Creamy",
+        "Fall"
+      ],
+      "summary": "A sweet pumpkin-latte gourmand with toasted marshmallow, creamy woods and soft musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pumpkin Pecan Waffles",
+      "officialNotes": [
+        "Maple Syrup",
+        "Golden Waffles",
+        "Pumpkin Spice"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Maple syrup / sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Golden waffles / baked dessert",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Pumpkin spice / warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Gourmand",
+        "Sweet",
+        "Cozy",
+        "Fall"
+      ],
+      "summary": "A rich breakfast-style gourmand with maple sweetness, waffles and warm pumpkin spice.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Strawberry Pound Cake",
       "officialNotes": [
         "Strawberry",
@@ -532,6 +825,45 @@
         "Soft"
       ],
       "summary": "A soft, cozy vanilla fragrance with sugar and gentle woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "White Tea & Sage",
+      "officialNotes": [
+        "Sparkling Bergamot",
+        "White Tea",
+        "Fresh Sage"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "White tea",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Sage / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Fresh": 3,
+        "Herbal": 3
+      },
+      "styleTags": [
+        "Fresh",
+        "Herbal",
+        "Clean",
+        "Airy"
+      ],
+      "summary": "Bright bergamot and white tea with a clean, herbal sage finish.",
       "availability": "uncertain"
     }
   ],
