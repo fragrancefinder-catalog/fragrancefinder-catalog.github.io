@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-16T01:30:00Z",
+  "description": "Current Bath & Body Works observations verified from official search-indexed category pages. This is additive evidence, not a claim of local store inventory.",
+  "batches": [
+    {
+      "family": "sanitizer",
+      "sourceURL": "https://www.bathandbodyworks.com/c/hand-soaps-sanitizers/pocketbac-hand-sanitizers",
+      "coverage": "First 48 of 71 currently indexed product rows",
+      "products": [
+        {
+          "name": "Gummi Snacks",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Champagne Toast",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Denim & Daisies",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Blue Raspberry Freeze",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Vampire Blood",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Pink Peach Blossom",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Crisp Morning Air",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Pumpkin Cupcake",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Champagne Apple & Honey",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "A Thousand Wishes",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Ghoul Friend",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Mahogany Teakwood",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Cotton Candy Cobwebs",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Sweater Weather",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Pumpkin Apple",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Lavender Vanilla",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Strawberry Pound Cake",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Pumpkin Carving",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Football Season",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Book Loft",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Fresh Rainfall",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Eucalyptus Spearmint",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Fresh Fall Morning",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Warm Vanilla Sugar",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Pumpkin Pecan Waffles",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Sunshine & Lemons",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Cozy Vanilla Almond",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Wild Blackberry Jam",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "In the Stars",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Whipped Honey & Vanilla",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Marshmallow Pumpkin Latte",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Blackberries & Basil",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Afternoon Apple Picking",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Sea & Sandstone",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Honeycrisp Hayride",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Leaves",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "White Pumpkin",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Lavender Bergamot",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Eucalyptus Rain",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Into the Night",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Peach Bellini",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Mountain Teakwood",
+          "productType": "PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Spiced Pumpkin Crème",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Honey Wildflower",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Champagne Toast",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Fresh Rainfall",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Flannel",
+          "productType": "Moisturizing PocketBac Hand Sanitizer"
+        },
+        {
+          "name": "Bubbly Rosé",
+          "productType": "PocketBac Hand Sanitizer"
+        }
+      ]
+    },
+    {
+      "family": "roomSpray",
+      "sourceURL": "https://www.bathandbodyworks.com/c/home-fragrance/room-sprays-mists",
+      "coverage": "40 of 40 product rows; duplicate fragrance/product rows collapsed",
+      "products": [
+        {
+          "name": "Laundry Day",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Champagne Toast",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Clean House Vibes",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Mahogany Teakwood",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Clean House Vibes - Luxe Cotton",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "White Tea & Sage",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Whipped Honey & Vanilla",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Eucalyptus Spearmint",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Moonlit Goddess",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Fresh Fall Morning",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Pumpkin Pecan Waffles",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Champagne Apple & Honey",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Linen & Lavender",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Leaves",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Ocean",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Raspberries & Whipped Vanilla",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Sweet Orange & Agave",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Football Season",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Japanese Cherry Blossom",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Strawberry Melon",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Sun Drenched Linen",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "The Perfect Autumn",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Vanilla Romance",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Fiji White Sands",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Vampire Blood",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Lavender Vanilla",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Endless Weekend",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Gingham",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Mahogany Coconut",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "White Pumpkin",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Fresh Amalfi Lemon",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Flannel",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Salted Amber & Vetiver",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Butterfly",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Pumpkin Bonfire",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Into the Night",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Honey Wildflower",
+          "productType": "Concentrated Room Spray"
+        },
+        {
+          "name": "Cider Lane",
+          "productType": "Concentrated Room Spray"
+        }
+      ]
+    },
+    {
+      "family": "carFragrance",
+      "sourceURL": "https://www.bathandbodyworks.com/c/home-fragrance/car-fragrance-promotion",
+      "coverage": "36 of 36 category products; non-fragrance holders excluded",
+      "products": [
+        {
+          "name": "Champagne Toast",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Autumn Drive",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Mahogany Teakwood",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Sweater Weather",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Laundry Day",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Farmhouse Pumpkin & Spice",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Pumpkin Apple",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Leaves",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Vampire Blood",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Endless Weekend",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Mahogany Coconut",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Pumpkin Pecan Waffles",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Fiji White Sands",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Ocean",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Cactus Blossom",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Fresh Watermelon",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Sweet Orange & Agave",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Book Loft",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Oceanside Lavender",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Cider Lane",
+          "productType": "Car Fragrance Refill"
+        },
+        {
+          "name": "Spring Apple",
+          "productType": "Car Fragrance Refill"
+        }
+      ]
+    }
+  ]
+}
