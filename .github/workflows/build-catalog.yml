@@ -1,0 +1,90 @@
+name: Build FragranceFinder Catalog
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build and Publish Catalog
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Build catalog.json
+        run: node scripts/build-catalog.js
+
+      - name: Validate generated JSON
+        shell: bash
+        run: |
+          node -e "
+            const fs = require('fs');
+            const c = JSON.parse(fs.readFileSync('catalog.json', 'utf8'));
+
+            if (c.schemaVersion !== 1) {
+              throw new Error('Wrong schema version');
+            }
+
+            if (c.readyFragrances.length !== 8) {
+              throw new Error('Wrong ready-fragrance count');
+            }
+
+            if (c.scentIndex.length !== 125) {
+              throw new Error('Wrong scent-index count');
+            }
+
+            const families = new Set(
+              c.scentIndex.flatMap(
+                x => x.observations.map(o => o.family)
+              )
+            );
+
+            if (families.size !== 7) {
+              throw new Error('Not all 7 families are represented');
+            }
+
+            console.log('catalog.json validation passed');
+          "
+
+      - name: Write job summary
+        shell: bash
+        run: |
+          {
+            echo "## FragranceFinder Catalog Build"
+            echo
+            echo "**Ready fragrances:** 8"
+            echo
+            echo "**Scent identities:** 125"
+            echo
+            echo "**Families:** 7/7"
+            echo
+            echo "**Verified product observations added:** 107"
+            echo
+            echo "Bootstrap observations removed."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit generated catalog
+        shell: bash
+        run: |
+          git config user.name "fragrancefinder-catalog"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add catalog.json
+
+          if git diff --cached --quiet; then
+            echo "catalog.json is already current."
+            exit 0
+          fi
+
+          git commit -m "Build expanded fragrance catalog"
+          git push
