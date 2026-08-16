@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "batch": "batch-02",
-  "description": "Cluster-based recommendation enrichment covering fresh/clean, gourmand, woody/warm and fruity/floral scent profiles.",
+  "description": "Cluster-based recommendation enrichment migrated to normalized scent vocabulary v2.",
   "fragrances": [
     {
       "name": "Freshwater",
@@ -20,8 +20,8 @@
           "profileKey": "Aquatic"
         },
         {
-          "label": "Oak moss / woods",
-          "profileKey": "Woody"
+          "label": "Oak moss / earthy quality",
+          "profileKey": "Earthy"
         },
         {
           "label": "Freshness",
@@ -31,8 +31,8 @@
       "scentProfile": {
         "Aquatic": 3,
         "Citrus": 2,
-        "Fresh": 3,
-        "Woody": 1
+        "Earthy": 2,
+        "Fresh": 3
       },
       "styleTags": [
         "Fresh",
@@ -56,8 +56,8 @@
           "profileKey": "Citrus"
         },
         {
-          "label": "White tea",
-          "profileKey": "Fresh"
+          "label": "White tea / brewed tea quality",
+          "profileKey": "Tea"
         },
         {
           "label": "Sage / herbal quality",
@@ -70,8 +70,10 @@
       ],
       "scentProfile": {
         "Citrus": 2,
-        "Fresh": 3,
-        "Herbal": 3
+        "Earthy": 1,
+        "Fresh": 2,
+        "Herbal": 2,
+        "Tea": 3
       },
       "styleTags": [
         "Fresh",
@@ -99,14 +101,20 @@
           "profileKey": "Gourmand"
         },
         {
-          "label": "Pumpkin spice / warmth",
-          "profileKey": "Warm"
+          "label": "Pumpkin spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Nutty quality",
+          "profileKey": "Nutty"
         }
       ],
       "scentProfile": {
         "Gourmand": 3,
+        "Nutty": 3,
+        "Spicy": 3,
         "Sweet": 3,
-        "Warm": 3
+        "Warm": 2
       },
       "styleTags": [
         "Gourmand",
@@ -127,12 +135,12 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Pumpkin latte / coffee-shop quality",
-          "profileKey": "Gourmand"
+          "label": "Pumpkin latte / coffeehouse quality",
+          "profileKey": "Coffee"
         },
         {
-          "label": "Toasted marshmallow / sweetness",
-          "profileKey": "Sweet"
+          "label": "Toasted marshmallow / dessert quality",
+          "profileKey": "Gourmand"
         },
         {
           "label": "Creamy sandalwood / woods",
@@ -145,14 +153,19 @@
         {
           "label": "Creamy quality",
           "profileKey": "Creamy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
         }
       ],
       "scentProfile": {
+        "Coffee": 2,
         "Creamy": 2,
         "Gourmand": 3,
         "Musk": 1,
         "Sweet": 3,
-        "Warm": 3,
+        "Warm": 2,
         "Woody": 1
       },
       "styleTags": [
@@ -218,28 +231,29 @@
       ],
       "feedbackOptions": [
         {
-          "label": "Brewed coffee / roasted quality",
-          "profileKey": "Gourmand"
+          "label": "Coffee / roasted quality",
+          "profileKey": "Coffee"
         },
         {
           "label": "Vanilla",
           "profileKey": "Vanilla"
         },
         {
-          "label": "Irish whiskey / boozy warmth",
-          "profileKey": "Warm"
+          "label": "Irish whiskey / boozy quality",
+          "profileKey": "Boozy"
         },
         {
-          "label": "Warm woody quality",
-          "profileKey": "Woody"
+          "label": "Warmth",
+          "profileKey": "Warm"
         }
       ],
       "scentProfile": {
-        "Gourmand": 2,
+        "Boozy": 3,
+        "Coffee": 2,
+        "Gourmand": 1,
         "Sweet": 1,
         "Vanilla": 2,
-        "Warm": 3,
-        "Woody": 2
+        "Warm": 2
       },
       "styleTags": [
         "Warm",
