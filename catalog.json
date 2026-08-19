@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T02:16:28.427Z",
+  "generatedAt": "2026-08-19T02:26:46.403Z",
   "noteEvidenceSummary": {
-    "records": 7,
-    "evidenceObservations": 14,
+    "records": 10,
+    "evidenceObservations": 17,
     "formatVariantRecords": 6,
     "readyNoteMismatches": 0
   },
@@ -744,7 +744,28 @@
         "Bright"
       ],
       "summary": "Juicy strawberry and peach softened by fresh florals.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "singleSource",
+      "noteDisplaySourceId": "gg-body-mist",
+      "verifiedDisplayNotes": [
+        "Pink Strawberries",
+        "Peach Nectar",
+        "Peony Blooms"
+      ],
+      "noteEvidence": [
+        {
+          "id": "gg-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/gingham-gorgeous-fine-fragrance-mist-028024557.html",
+          "verifiedAt": "2026-08-18",
+          "notes": [
+            "Pink Strawberries",
+            "Peach Nectar",
+            "Peony Blooms"
+          ]
+        }
+      ]
     },
     {
       "name": "Honey Wildflower",
@@ -980,7 +1001,32 @@
         "Classic"
       ],
       "summary": "A classic floral with soft fruit and warm woods.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "singleSource",
+      "noteDisplaySourceId": "jcb-body-mist",
+      "verifiedDisplayNotes": [
+        "Japanese Cherry Blossom",
+        "Asian Pear",
+        "Fresh Mimosa Petals",
+        "White Jasmine",
+        "Blushing Sandalwood"
+      ],
+      "noteEvidence": [
+        {
+          "id": "jcb-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/japanese-cherry-blossom-028032521",
+          "verifiedAt": "2026-08-18",
+          "notes": [
+            "Japanese Cherry Blossom",
+            "Asian Pear",
+            "Fresh Mimosa Petals",
+            "White Jasmine",
+            "Blushing Sandalwood"
+          ]
+        }
+      ]
     },
     {
       "name": "Lakeside Morning",
@@ -1440,7 +1486,28 @@
         "Rich"
       ],
       "summary": "A very sweet strawberry dessert-style fragrance.",
-      "availability": "uncertain"
+      "availability": "uncertain",
+      "noteEvidenceStatus": "singleSource",
+      "noteDisplaySourceId": "spc-body-mist",
+      "verifiedDisplayNotes": [
+        "Fresh Strawberries",
+        "Golden Shortcake",
+        "Whipped Cream"
+      ],
+      "noteEvidence": [
+        {
+          "id": "spc-body-mist",
+          "family": "bodyCare",
+          "productType": "Fine Fragrance Mist",
+          "sourceURL": "https://www.bathandbodyworks.com/p/strawberry-pound-cake-028024314",
+          "verifiedAt": "2026-08-18",
+          "notes": [
+            "Fresh Strawberries",
+            "Golden Shortcake",
+            "Whipped Cream"
+          ]
+        }
+      ]
     },
     {
       "name": "Sunrise Woods",
