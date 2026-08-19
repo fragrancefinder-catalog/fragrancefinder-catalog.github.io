@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T04:26:54.768Z",
+  "generatedAt": "2026-08-19T02:16:28.427Z",
   "noteEvidenceSummary": {
     "records": 7,
     "evidenceObservations": 14,
@@ -705,9 +705,9 @@
     {
       "name": "Gingham Gorgeous",
       "officialNotes": [
-        "Strawberry",
-        "Peach",
-        "Peony"
+        "Pink Strawberries",
+        "Peach Nectar",
+        "Peony Blooms"
       ],
       "feedbackOptions": [
         {
@@ -943,10 +943,11 @@
     {
       "name": "Japanese Cherry Blossom",
       "officialNotes": [
-        "Cherry Blossom",
-        "Pear",
-        "Jasmine",
-        "Sandalwood"
+        "Japanese Cherry Blossom",
+        "Asian Pear",
+        "Fresh Mimosa Petals",
+        "White Jasmine",
+        "Blushing Sandalwood"
       ],
       "feedbackOptions": [
         {
@@ -1403,8 +1404,8 @@
     {
       "name": "Strawberry Pound Cake",
       "officialNotes": [
-        "Strawberry",
-        "Cake",
+        "Fresh Strawberries",
+        "Golden Shortcake",
         "Whipped Cream"
       ],
       "feedbackOptions": [
