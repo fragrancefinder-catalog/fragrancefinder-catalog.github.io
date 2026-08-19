@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T02:26:46.403Z",
+  "generatedAt": "2026-08-19T05:02:10.326Z",
   "noteEvidenceSummary": {
     "records": 10,
     "evidenceObservations": 17,
@@ -211,6 +211,91 @@
       "availability": "uncertain"
     },
     {
+      "name": "Black Cherry Merlot",
+      "officialNotes": [
+        "Dark Cherry",
+        "Black Raspberry",
+        "Merlot"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Dark cherry / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Black raspberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Merlot / wine quality",
+          "profileKey": "Boozy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Boozy": 3,
+        "Fruity": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Dark Fruit",
+        "Boozy",
+        "Rich",
+        "Fruity"
+      ],
+      "summary": "Rich dark cherry and black raspberry with a smooth red-wine character.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Book Loft",
+      "officialNotes": [
+        "Crisp Bergamot",
+        "Neroli",
+        "Cozy Woods"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bergamot / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Neroli / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Cozy woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Clean quality",
+          "profileKey": "Clean"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Clean": 1,
+        "Floral": 2,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Woodsy",
+        "Cozy",
+        "Warm",
+        "Clean"
+      ],
+      "summary": "Crisp bergamot and neroli settling into warm, cozy woods.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Butterfly",
       "officialNotes": [
         "Raspberry Nectar",
@@ -254,6 +339,52 @@
         "Daytime"
       ],
       "summary": "Airy raspberry and iris softened by sweet vanilla.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Cactus Blossom",
+      "officialNotes": [
+        "Cactus Flower Petals",
+        "Fresh Citrus",
+        "Vanilla Coconut"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Cactus flower / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Fresh citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Coconut",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Coconut": 2,
+        "Floral": 3,
+        "Fresh": 1,
+        "Sweet": 2,
+        "Vanilla": 2
+      },
+      "styleTags": [
+        "Tropical",
+        "Floral",
+        "Bright",
+        "Sweet"
+      ],
+      "summary": "Bright cactus florals and fresh citrus softened by sweet vanilla coconut.",
       "availability": "uncertain"
     },
     {
@@ -463,6 +594,51 @@
       ]
     },
     {
+      "name": "Crisp Morning Air",
+      "officialNotes": [
+        "Fresh Pine",
+        "Juniper",
+        "Juicy Pear"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Pine / green quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Juniper / aromatic quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Pear / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Woodsy quality",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Fresh": 3,
+        "Fruity": 2,
+        "Green": 3,
+        "Herbal": 2,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Crisp",
+        "Green",
+        "Fresh",
+        "Woodsy"
+      ],
+      "summary": "Crisp pine and juniper brightened by fresh, juicy pear.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Dreamy Amber",
       "officialNotes": [
         "Sheer Amber",
@@ -539,6 +715,51 @@
         "Aromatic"
       ],
       "summary": "Cooling eucalyptus and spearmint with a crisp spa-like freshness.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Fiji White Sands",
+      "officialNotes": [
+        "Fresh Cut Sugarcane",
+        "White Nectarine",
+        "Sandalwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "White nectarine / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sugarcane sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Fresh": 1,
+        "Fruity": 3,
+        "Sweet": 2,
+        "Warm": 2,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Sunny",
+        "Beachy",
+        "Fruity",
+        "Warm"
+      ],
+      "summary": "Sunny white nectarine and sugarcane warmed by smooth sandalwood.",
       "availability": "uncertain"
     },
     {
@@ -1448,6 +1669,52 @@
       "availability": "uncertain"
     },
     {
+      "name": "Salted Amber & Vetiver",
+      "officialNotes": [
+        "Salted Amber",
+        "Fresh Orange Flower",
+        "Rich Vetiver"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Salted amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Orange flower / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Vetiver / earthy quality",
+          "profileKey": "Earthy"
+        },
+        {
+          "label": "Woodsy quality",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 3,
+        "Earthy": 3,
+        "Floral": 2,
+        "Fresh": 1,
+        "Warm": 2,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Amber",
+        "Earthy",
+        "Warm",
+        "Coastal"
+      ],
+      "summary": "Salted amber and fresh orange flower grounded by deep, earthy vetiver.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Strawberry Pound Cake",
       "officialNotes": [
         "Fresh Strawberries",
@@ -1508,6 +1775,52 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sun Drenched Linen",
+      "officialNotes": [
+        "Fresh Linen",
+        "Crisp Tart Apple",
+        "Soft Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh linen / clean quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Crisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Tartness",
+          "profileKey": "Tart"
+        },
+        {
+          "label": "Soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Fresh airy quality",
+          "profileKey": "Airy"
+        }
+      ],
+      "scentProfile": {
+        "Airy": 2,
+        "Apple": 2,
+        "Clean": 3,
+        "Fresh": 3,
+        "Musk": 2,
+        "Tart": 2
+      },
+      "styleTags": [
+        "Clean",
+        "Sunny",
+        "Airy",
+        "Fresh"
+      ],
+      "summary": "Sunlit fresh linen with crisp tart apple and soft musk.",
+      "availability": "uncertain"
     },
     {
       "name": "Sunrise Woods",
@@ -1640,6 +1953,52 @@
         "Playful"
       ],
       "summary": "Sweet red berries and dark plum wrapped in night-blooming jasmine.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Vanilla Romance",
+      "officialNotes": [
+        "Fresh Cardamom",
+        "Vanilla Absolute",
+        "Captivating Woods"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Cardamom / spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Captivating woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Creamy softness",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 2,
+        "Spicy": 3,
+        "Sweet": 2,
+        "Vanilla": 3,
+        "Warm": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Vanilla",
+        "Spiced",
+        "Woodsy",
+        "Warm"
+      ],
+      "summary": "Creamy vanilla warmed by aromatic cardamom and smooth woods.",
       "availability": "uncertain"
     },
     {
