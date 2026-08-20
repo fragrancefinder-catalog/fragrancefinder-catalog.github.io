@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T03:08:59.281Z",
+  "generatedAt": "2026-08-20T18:59:54.647Z",
   "noteEvidenceSummary": {
     "records": 10,
     "evidenceObservations": 17,
@@ -1458,6 +1458,53 @@
       "availability": "uncertain"
     },
     {
+      "name": "Lavender Vanilla",
+      "officialNotes": [
+        "Lavender Blossom",
+        "Creamy Vanilla",
+        "White Woods",
+        "Sugared Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Creamy vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Creamy softness",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "White woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Sugared musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 2,
+        "Floral": 3,
+        "Musk": 1,
+        "Sweet": 1,
+        "Vanilla": 3,
+        "Woody": 1
+      },
+      "styleTags": [
+        "Relaxing",
+        "Lavender",
+        "Creamy",
+        "Bedtime"
+      ],
+      "summary": "Soft lavender and creamy vanilla resting over white woods and sugared musk.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Leaves",
       "officialNotes": [
         "Crisp Red Apple",
@@ -1492,6 +1539,46 @@
         "Fall"
       ],
       "summary": "Crisp red apple and golden sweetness wrapped in warm clove spice.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Limoncello",
+      "officialNotes": [
+        "Sorrento Lemons",
+        "Cane Sugar",
+        "Lemon Zest"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Lemon / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Lemon-zest tartness",
+          "profileKey": "Tart"
+        },
+        {
+          "label": "Bright freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Cane-sugar sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 3,
+        "Fresh": 2,
+        "Sweet": 2,
+        "Tart": 2
+      },
+      "styleTags": [
+        "Lemon",
+        "Bright",
+        "Sweet-Tart",
+        "Fresh"
+      ],
+      "summary": "Bright Sorrento lemon and zest sweetened with a clean touch of cane sugar.",
       "availability": "uncertain"
     },
     {
@@ -1795,6 +1882,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Peach Bellini",
+      "officialNotes": [
+        "Succulent White Peach",
+        "Sparkling Prosecco",
+        "Sweet Orange"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "White peach / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sweet orange / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sparkling quality",
+          "profileKey": "Sparkling"
+        },
+        {
+          "label": "Prosecco / boozy quality",
+          "profileKey": "Boozy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Boozy": 1,
+        "Citrus": 2,
+        "Fruity": 3,
+        "Sparkling": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Peachy",
+        "Sparkling",
+        "Bright",
+        "Fruity"
+      ],
+      "summary": "Juicy white peach brightened by sparkling prosecco and sweet orange.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Pistachio Milk & Honey",
       "officialNotes": [
         "Toasted Pistachio",
@@ -1888,6 +2020,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Pumpkin Apple",
+      "officialNotes": [
+        "Red Delicious Apples",
+        "Fall Pumpkin",
+        "Clove Buds"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Red apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Fruity quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Clove / fall spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Fruity": 2,
+        "Spicy": 3,
+        "Sweet": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Apple",
+        "Spiced",
+        "Fall",
+        "Warm"
+      ],
+      "summary": "Juicy red apple and pumpkin wrapped in warm clove spice.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Pumpkin Pecan Waffles",
       "officialNotes": [
         "Maple Syrup",
@@ -1926,6 +2103,57 @@
         "Fall"
       ],
       "summary": "A rich breakfast-style gourmand with maple sweetness, waffles and warm pumpkin spice.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Raspberries & Whipped Vanilla",
+      "officialNotes": [
+        "Pink Raspberries",
+        "Strawberry Vanilla Bean",
+        "Sugared Lemon Drops"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Raspberries / berry quality",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Fruity quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Creamy quality",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Sugared sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Lemon-drop citrus",
+          "profileKey": "Citrus"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Citrus": 1,
+        "Creamy": 2,
+        "Fruity": 3,
+        "Gourmand": 1,
+        "Sweet": 3,
+        "Vanilla": 3
+      },
+      "styleTags": [
+        "Berry",
+        "Creamy",
+        "Sweet",
+        "Treat-Like"
+      ],
+      "summary": "Sweet raspberries and strawberry vanilla brightened by a lightly tart lemon-drop finish.",
       "availability": "uncertain"
     },
     {
@@ -2165,6 +2393,47 @@
         "Cozy"
       ],
       "summary": "Creamy sandalwood and cozy cashmere warmed by softly sweet berries.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sweater Weather",
+      "officialNotes": [
+        "Fresh Sage",
+        "Juniper Berry",
+        "Aromatic Eucalyptus",
+        "Fresh Woods"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sage / eucalyptus herbs",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Fresh outdoors quality",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Green aromatic quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Fresh woods",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Fresh": 3,
+        "Green": 2,
+        "Herbal": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Crisp",
+        "Outdoorsy",
+        "Herbal",
+        "Woodsy"
+      ],
+      "summary": "Fresh sage and eucalyptus carried through crisp juniper and clean woods.",
       "availability": "uncertain"
     },
     {
@@ -2432,6 +2701,60 @@
       ]
     },
     {
+      "name": "Watermelon Whirl",
+      "officialNotes": [
+        "Juicy Watermelon",
+        "Sugared Berries",
+        "Dewy Fruits",
+        "Peony Petals",
+        "Soft Musks",
+        "Sheer Vanilla",
+        "Blonde Woods"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Watermelon / juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sugared berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Peony petals / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Fresh dewy quality",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Floral": 1,
+        "Fresh": 2,
+        "Fruity": 3,
+        "Musk": 2,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Juicy",
+        "Playful",
+        "Fresh",
+        "Fruity"
+      ],
+      "summary": "Dewy watermelon and sugared berries softened by petals, sheer vanilla and clean musk.",
+      "availability": "uncertain"
+    },
+    {
       "name": "White Gardenia",
       "officialNotes": [
         "Classic White Gardenia",
@@ -2511,6 +2834,51 @@
           ]
         }
       ]
+    },
+    {
+      "name": "White Pumpkin & Chai",
+      "officialNotes": [
+        "Cinnamon Cider",
+        "Spiced Pumpkin",
+        "Vanilla Glaze"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Cinnamon / spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Pumpkin / cozy gourmand quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Vanilla glaze",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Gourmand": 2,
+        "Spicy": 3,
+        "Sweet": 2,
+        "Vanilla": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Chai-Inspired",
+        "Cozy",
+        "Spiced",
+        "Fall"
+      ],
+      "summary": "Warm cinnamon cider and spiced pumpkin finished with smooth vanilla glaze.",
+      "availability": "uncertain"
     },
     {
       "name": "White Tea & Sage",
