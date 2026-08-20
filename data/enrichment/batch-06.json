@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-06",
+  "description": "Recommendation-ready expansion batch 06.",
+  "fragrances": [
+    {
+      "name": "The Perfect Autumn",
+      "officialNotes": [
+        "Fresh Cranberry",
+        "Spiced Pumpkin",
+        "Crisp Apple"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh cranberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Crisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Spiced pumpkin / spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Berry": 2,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Fall",
+        "Fruity",
+        "Spiced",
+        "Warm"
+      ],
+      "summary": "Tart cranberry and crisp apple wrapped in warm spiced pumpkin.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Marshmallow Fireside",
+      "officialNotes": [
+        "Toasted Marshmallow",
+        "Smoldering Woods",
+        "Fire-Roasted Vanilla",
+        "Crystalized Amber"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Toasted marshmallow / gourmand quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Smoldering woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Fire-roasted vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 1,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Vanilla": 3,
+        "Warm": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Cozy",
+        "Toasted",
+        "Sweet",
+        "Woodsy"
+      ],
+      "summary": "Toasted marshmallow and warm vanilla over glowing, smoldering woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Fresh Amalfi Lemon",
+      "officialNotes": [
+        "Lemon Leaves",
+        "Chilled Spearmint",
+        "Cedarwood Citrus"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Lemon / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Lemon leaves / green quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Spearmint",
+          "profileKey": "Mint"
+        },
+        {
+          "label": "Chilled / cooling quality",
+          "profileKey": "Cooling"
+        },
+        {
+          "label": "Cedarwood",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 3,
+        "Cooling": 2,
+        "Fresh": 3,
+        "Green": 2,
+        "Mint": 2,
+        "Woody": 1
+      },
+      "styleTags": [
+        "Citrus",
+        "Fresh",
+        "Cooling",
+        "Coastal"
+      ],
+      "summary": "Bright leafy lemon cooled by spearmint with a light cedarwood finish.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Linen & Lavender",
+      "officialNotes": [
+        "Crisp Linen",
+        "Lavender Sea Salt",
+        "Fresh Air Breeze"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp linen / clean quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sea-salt freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Fresh-air breeze",
+          "profileKey": "Airy"
+        }
+      ],
+      "scentProfile": {
+        "Airy": 3,
+        "Clean": 3,
+        "Floral": 2,
+        "Fresh": 3
+      },
+      "styleTags": [
+        "Clean",
+        "Airy",
+        "Lavender",
+        "Fresh"
+      ],
+      "summary": "Crisp clean linen carried on fresh air with soft lavender and a hint of sea salt.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sea & Sandstone",
+      "officialNotes": [
+        "Salted Sea Spray",
+        "Warm Sandstone",
+        "Golden Driftwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Salted sea spray / aquatic quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Fresh coastal quality",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Warm sandstone / warmth",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Golden driftwood / woods",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Fresh": 2,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Coastal",
+        "Mineral",
+        "Warm",
+        "Woodsy"
+      ],
+      "summary": "Salted sea spray over sun-warmed stone and smooth golden driftwood.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Eucalyptus Rain",
+      "officialNotes": [
+        "Aromatic Eucalyptus",
+        "Spearmint Leaves",
+        "Fresh Spring Rain"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Eucalyptus / aromatic herbs",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Spearmint",
+          "profileKey": "Mint"
+        },
+        {
+          "label": "Spring rain / watery quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Cooling quality",
+          "profileKey": "Cooling"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Cooling": 2,
+        "Fresh": 3,
+        "Herbal": 3,
+        "Mint": 2
+      },
+      "styleTags": [
+        "Rainy",
+        "Fresh",
+        "Cooling",
+        "Aromatic"
+      ],
+      "summary": "Aromatic eucalyptus and spearmint refreshed by cool spring rain.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Moonlit Goddess",
+      "officialNotes": [
+        "French Lavender",
+        "Pear Blossom",
+        "Golden Vanilla"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Lavender and pear blossom / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Golden vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Airy softness",
+          "profileKey": "Airy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Airy": 3,
+        "Floral": 3,
+        "Sweet": 1,
+        "Vanilla": 2,
+        "Warm": 1
+      },
+      "styleTags": [
+        "Airy",
+        "Floral",
+        "Soft",
+        "Luminous"
+      ],
+      "summary": "Airy lavender and pear blossom softened by smooth golden vanilla.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Endless Weekend",
+      "officialNotes": [
+        "Fresh Summer Mandarin",
+        "Sun-Kissed Magnolia",
+        "Blue Coconut Water"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Summer mandarin / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Magnolia / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Coconut water",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 3,
+        "Coconut": 2,
+        "Floral": 2,
+        "Fresh": 2,
+        "Sweet": 1
+      },
+      "styleTags": [
+        "Sunny",
+        "Tropical",
+        "Fresh",
+        "Carefree"
+      ],
+      "summary": "Sunny mandarin and magnolia splashed with fresh blue coconut water.",
+      "availability": "uncertain"
+    }
+  ]
+}
