@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-08",
+  "description": "Recommendation-ready expansion batch 08.",
+  "fragrances": [
+    {
+      "name": "Whipped Honey & Vanilla",
+      "officialNotes": [
+        "Honey Drizzle",
+        "Blossoming Neroli",
+        "Whipped Vanilla Bean"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Honeyed sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Neroli / floral quality",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Whipped vanilla bean",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Treat-like gourmand quality",
+          "profileKey": "Gourmand"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 2,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Vanilla": 3
+      },
+      "styleTags": [
+        "Honeyed",
+        "Gourmand",
+        "Soft",
+        "Vanilla"
+      ],
+      "summary": "Rich honey and whipped vanilla softened by a light neroli blossom.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Very Violet",
+      "officialNotes": [
+        "Ambrette Seeds",
+        "Golden Starfruit",
+        "Crunchy Red Pear",
+        "Mandarin Madagascar",
+        "Violet Absolute",
+        "Floating Water Lilies",
+        "Sunbeam Magnolia",
+        "Soft Sandalwood Cream",
+        "Orris Butter",
+        "White Cedar",
+        "Clean Musks"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Violet / magnolia / water-lily florals",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Pear / starfruit / mandarin brightness",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Orris / powdery violet effect",
+          "profileKey": "Powdery"
+        },
+        {
+          "label": "Clean musks",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Sandalwood / cedar",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Fruity": 2,
+        "Musk": 3,
+        "Powdery": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Violet",
+        "Powdery",
+        "Modern",
+        "Musky"
+      ],
+      "summary": "Powdery violet and luminous florals over clean musk and smooth pale woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Fresh Fall Morning",
+      "officialNotes": [
+        "Citrus Zest",
+        "Woodland Sage",
+        "Red Delicious Apples"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Red Delicious apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Citrus zest",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Woodland sage / herbs",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Green outdoors quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Crisp fall-air freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Citrus": 2,
+        "Fresh": 3,
+        "Green": 2,
+        "Herbal": 3
+      },
+      "styleTags": [
+        "Crisp",
+        "Herbal",
+        "Fresh",
+        "Fall"
+      ],
+      "summary": "Crisp citrus and woodland sage lifted by fresh red apple.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Clean House Vibes",
+      "officialNotes": [
+        "Fresh Lavender",
+        "Sparkling Bergamot",
+        "Mint Blossom"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh lavender / floral quality",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Sparkling bergamot / citrus brightness",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Mint blossom / floral freshness",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Clean-house quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Bright freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Clean": 3,
+        "Floral": 3,
+        "Fresh": 3
+      },
+      "styleTags": [
+        "Clean",
+        "Bright",
+        "Floral",
+        "Fresh"
+      ],
+      "summary": "Fresh lavender and sparkling bergamot brightened by clean mint blossom.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Cotton Candy Cobwebs",
+      "officialNotes": [
+        "Spun Sugared Webs",
+        "Fresh Berries",
+        "Fluffy Whipped Vanilla"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Fruity quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Spun-sugar candy quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Sugar sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Whipped vanilla",
+          "profileKey": "Vanilla"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 2,
+        "Fruity": 2,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Vanilla": 3
+      },
+      "styleTags": [
+        "Candy",
+        "Sweet",
+        "Playful",
+        "Halloween"
+      ],
+      "summary": "Airy spun sugar and whipped vanilla twisted with juicy dark berries.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Afternoon Apple Picking",
+      "officialNotes": [
+        "Crisp Apple",
+        "Succulent Pear",
+        "Cinnamon"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Pear / fruity quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Cinnamon",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warm seasonal character",
+          "profileKey": "Warm"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Orchard",
+        "Juicy",
+        "Spiced",
+        "Fall"
+      ],
+      "summary": "Crisp apple and juicy pear warmed with a light touch of cinnamon.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Cashmere Blanket",
+      "officialNotes": [
+        "Soft Cashmere",
+        "Sage Leaf",
+        "Warm Amber"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Warm amber",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Sage leaf / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Glowing warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 3,
+        "Herbal": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Cozy",
+        "Soft",
+        "Herbal",
+        "Warm"
+      ],
+      "summary": "Soft cashmere comfort wrapped around herbal sage and glowing warm amber.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Ghoul Friend",
+      "officialNotes": [
+        "Dark Strawberries",
+        "Ghostly Peony",
+        "Spine-Chilling Citrus"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Dark strawberries / berry quality",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Fruity character",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Peony / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Citrus brightness",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Citrus": 2,
+        "Floral": 2,
+        "Fruity": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Berry",
+        "Bright",
+        "Halloween",
+        "Playful"
+      ],
+      "summary": "Dark juicy strawberries and peony brightened by a sharp citrus sparkle.",
+      "availability": "uncertain"
+    }
+  ]
+}
