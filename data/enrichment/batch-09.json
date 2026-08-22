@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
+  "batch": "batch-09",
+  "description": "Recommendation-ready expansion batch 09.",
   "fragrances": [
     {
       "name": "Wild Blackberry Jam",
@@ -9,26 +11,26 @@
         "Amber Woods"
       ],
       "feedbackOptions": [
-        [
-          "Blackberry / berries",
-          "Berry"
-        ],
-        [
-          "Fig / rich fruit",
-          "Fruity"
-        ],
-        [
-          "Jammy sweetness",
-          "Sweet"
-        ],
-        [
-          "Amber warmth",
-          "Amber"
-        ],
-        [
-          "Amber woods / woody finish",
-          "Woody"
-        ]
+        {
+          "label": "Blackberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Fig / rich fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Jammy sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Amber warmth",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Amber woods / woody finish",
+          "profileKey": "Woody"
+        }
       ],
       "scentProfile": {
         "Amber": 2,
@@ -55,22 +57,22 @@
         "Drizzled Honey"
       ],
       "feedbackOptions": [
-        [
-          "Blueberry / berries",
-          "Berry"
-        ],
-        [
-          "Cornbread / baked gourmand",
-          "Gourmand"
-        ],
-        [
-          "Honeyed sweetness",
-          "Sweet"
-        ],
-        [
-          "Warm baked quality",
-          "Warm"
-        ]
+        {
+          "label": "Blueberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Cornbread / baked gourmand",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Honeyed sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warm baked quality",
+          "profileKey": "Warm"
+        }
       ],
       "scentProfile": {
         "Berry": 3,
@@ -97,26 +99,26 @@
         "Whipped Vanilla"
       ],
       "feedbackOptions": [
-        [
-          "Cinnamon and ginger spice",
-          "Spicy"
-        ],
-        [
-          "Ginger snap / baked gourmand",
-          "Gourmand"
-        ],
-        [
-          "Whipped vanilla",
-          "Vanilla"
-        ],
-        [
-          "Sweetness",
-          "Sweet"
-        ],
-        [
-          "Warmth",
-          "Warm"
-        ]
+        {
+          "label": "Cinnamon and ginger spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Ginger snap / baked gourmand",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Whipped vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
       ],
       "scentProfile": {
         "Gourmand": 3,
@@ -142,18 +144,18 @@
         "Fall Spices"
       ],
       "feedbackOptions": [
-        [
-          "Patchouli / earthy quality",
-          "Patchouli"
-        ],
-        [
-          "Fall spices",
-          "Spicy"
-        ],
-        [
-          "Warmth",
-          "Warm"
-        ]
+        {
+          "label": "Patchouli / earthy quality",
+          "profileKey": "Patchouli"
+        },
+        {
+          "label": "Fall spices",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
       ],
       "scentProfile": {
         "Patchouli": 3,
@@ -177,26 +179,26 @@
         "Clove Buds"
       ],
       "feedbackOptions": [
-        [
-          "Fresh-picked apple",
-          "Apple"
-        ],
-        [
-          "Autumn berries",
-          "Berry"
-        ],
-        [
-          "Mixed fruitiness",
-          "Fruity"
-        ],
-        [
-          "Clove spice",
-          "Spicy"
-        ],
-        [
-          "Warmth",
-          "Warm"
-        ]
+        {
+          "label": "Fresh-picked apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Autumn berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Mixed fruitiness",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Clove spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
       ],
       "scentProfile": {
         "Apple": 2,
@@ -223,26 +225,26 @@
         "Fresh Sugarcane"
       ],
       "feedbackOptions": [
-        [
-          "Honeycrisp apple",
-          "Apple"
-        ],
-        [
-          "Juicy fruit",
-          "Fruity"
-        ],
-        [
-          "Apple blossom / floral",
-          "Floral"
-        ],
-        [
-          "Fresh crispness",
-          "Fresh"
-        ],
-        [
-          "Sugarcane sweetness",
-          "Sweet"
-        ]
+        {
+          "label": "Honeycrisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Apple blossom / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Fresh crispness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Sugarcane sweetness",
+          "profileKey": "Sweet"
+        }
       ],
       "scentProfile": {
         "Apple": 3,
@@ -268,26 +270,26 @@
         "Vanilla Spice"
       ],
       "feedbackOptions": [
-        [
-          "Sugared blackberry / berries",
-          "Berry"
-        ],
-        [
-          "Pomegranate / fruit",
-          "Fruity"
-        ],
-        [
-          "Tart fruit quality",
-          "Tart"
-        ],
-        [
-          "Vanilla spice",
-          "Spicy"
-        ],
-        [
-          "Sweetness",
-          "Sweet"
-        ]
+        {
+          "label": "Sugared blackberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Pomegranate / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Tart fruit quality",
+          "profileKey": "Tart"
+        },
+        {
+          "label": "Vanilla spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
       ],
       "scentProfile": {
         "Berry": 3,
@@ -315,26 +317,26 @@
         "A Touch of Fresh Eucalyptus"
       ],
       "feedbackOptions": [
-        [
-          "Teakwood / woods",
-          "Woody"
-        ],
-        [
-          "Fresh eucalyptus / herbal quality",
-          "Herbal"
-        ],
-        [
-          "Crisp mountain-air freshness",
-          "Fresh"
-        ],
-        [
-          "Cooling quality",
-          "Cooling"
-        ],
-        [
-          "Green aromatic quality",
-          "Green"
-        ]
+        {
+          "label": "Teakwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Fresh eucalyptus / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Crisp mountain-air freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Cooling quality",
+          "profileKey": "Cooling"
+        },
+        {
+          "label": "Green aromatic quality",
+          "profileKey": "Green"
+        }
       ],
       "scentProfile": {
         "Cooling": 2,
