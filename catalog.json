@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T04:15:52.423Z",
+  "generatedAt": "2026-08-22T08:45:04.557Z",
   "noteEvidenceSummary": {
     "records": 10,
     "evidenceObservations": 17,
@@ -293,6 +293,47 @@
         "Fruity"
       ],
       "summary": "Rich dark cherry and black raspberry with a smooth red-wine character.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Blueberry Cornbread",
+      "officialNotes": [
+        "Skillet-Baked Cornbread",
+        "Fresh Blueberries",
+        "Drizzled Honey"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Blueberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Cornbread / baked gourmand",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Honeyed sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warm baked quality",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 2,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Gourmand",
+        "Berry",
+        "Baked",
+        "Cozy"
+      ],
+      "summary": "Juicy blueberries baked into warm golden cornbread with a drizzle of honey.",
       "availability": "uncertain"
     },
     {
@@ -973,6 +1014,41 @@
       "availability": "uncertain"
     },
     {
+      "name": "Farmhouse Pumpkin & Spice",
+      "officialNotes": [
+        "Heirloom Pumpkin",
+        "Patchouli",
+        "Fall Spices"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Patchouli / earthy quality",
+          "profileKey": "Patchouli"
+        },
+        {
+          "label": "Fall spices",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Patchouli": 3,
+        "Spicy": 3,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Earthy",
+        "Spiced",
+        "Warm",
+        "Fall"
+      ],
+      "summary": "Heirloom pumpkin and fall spices grounded by earthy patchouli.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Fiji White Sands",
       "officialNotes": [
         "Fresh Cut Sugarcane",
@@ -1380,6 +1456,52 @@
       ]
     },
     {
+      "name": "Harvest Gathering",
+      "officialNotes": [
+        "Fresh Picked Apples",
+        "Autumn Berries",
+        "Clove Buds"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh-picked apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Autumn berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Mixed fruitiness",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Clove spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Berry": 2,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Fruity",
+        "Spiced",
+        "Harvest",
+        "Fall"
+      ],
+      "summary": "Fresh apples and tart autumn berries warmed with a cozy touch of clove.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Honey Wildflower",
       "officialNotes": [
         "Crisp Pear",
@@ -1417,6 +1539,51 @@
         "Golden"
       ],
       "summary": "Fresh wildflowers and crisp pear sweetened with soft golden honey.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Honeycrisp Apple",
+      "officialNotes": [
+        "Golden Honeycrisp",
+        "Apple Blossom",
+        "Fresh Sugarcane"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Honeycrisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Apple blossom / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Fresh crispness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Sugarcane sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Floral": 1,
+        "Fresh": 2,
+        "Fruity": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Apple",
+        "Crisp",
+        "Fresh",
+        "Orchard"
+      ],
+      "summary": "Crisp juicy Honeycrisp apple brightened by soft blossom and fresh sugarcane.",
       "availability": "uncertain"
     },
     {
@@ -2101,6 +2268,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Mountain Teakwood",
+      "officialNotes": [
+        "Crisp Mountain Air",
+        "Rich Teakwood",
+        "A Touch of Fresh Eucalyptus"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Teakwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Fresh eucalyptus / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Crisp mountain-air freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Cooling quality",
+          "profileKey": "Cooling"
+        },
+        {
+          "label": "Green aromatic quality",
+          "profileKey": "Green"
+        }
+      ],
+      "scentProfile": {
+        "Cooling": 2,
+        "Fresh": 3,
+        "Green": 2,
+        "Herbal": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Fresh",
+        "Woodsy",
+        "Aromatic",
+        "Outdoorsy"
+      ],
+      "summary": "Crisp alpine air and fresh eucalyptus sweeping across rich teakwood.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Ocean",
       "officialNotes": [
         "Blue Cypress",
@@ -2276,6 +2488,53 @@
         "Bold"
       ],
       "summary": "Sparkling bergamot and luminous florals grounded by patchouli musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pomegranate & Blackberry",
+      "officialNotes": [
+        "Autumn Pomegranate",
+        "Sugared Blackberry",
+        "Vanilla Spice"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sugared blackberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Pomegranate / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Tart fruit quality",
+          "profileKey": "Tart"
+        },
+        {
+          "label": "Vanilla spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Tart": 2,
+        "Vanilla": 1,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Dark Fruit",
+        "Berry",
+        "Tart",
+        "Fall"
+      ],
+      "summary": "Tart pomegranate and jammy blackberry sweetened with a touch of warm vanilla spice.",
       "availability": "uncertain"
     },
     {
@@ -2693,6 +2952,52 @@
         "Woodsy"
       ],
       "summary": "Fresh sage and eucalyptus carried through crisp juniper and clean woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sweet Cinnamon Pumpkin",
+      "officialNotes": [
+        "Heirloom Pumpkin",
+        "Autumn Cinnamon",
+        "Ginger Snap",
+        "Whipped Vanilla"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Cinnamon and ginger spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Ginger snap / baked gourmand",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Whipped vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Gourmand": 3,
+        "Spicy": 3,
+        "Sweet": 3,
+        "Vanilla": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Pumpkin",
+        "Gourmand",
+        "Spiced",
+        "Cozy"
+      ],
+      "summary": "Sweet pumpkin and cinnamon baked with ginger spice and soft whipped vanilla.",
       "availability": "uncertain"
     },
     {
@@ -3305,6 +3610,52 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Wild Blackberry Jam",
+      "officialNotes": [
+        "Countryside Blackberry",
+        "Velvet Fig",
+        "Amber Woods"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Blackberry / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Fig / rich fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Jammy sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Amber warmth",
+          "profileKey": "Amber"
+        },
+        {
+          "label": "Amber woods / woody finish",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Amber": 2,
+        "Berry": 3,
+        "Fruity": 3,
+        "Gourmand": 1,
+        "Sweet": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Berry",
+        "Jammy",
+        "Rich",
+        "Fall"
+      ],
+      "summary": "Rich blackberry and ripe fig simmered into jammy sweetness over soft amber woods.",
+      "availability": "uncertain"
     }
   ],
   "scentIndex": [
