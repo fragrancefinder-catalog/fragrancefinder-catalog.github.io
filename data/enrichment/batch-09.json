@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "fragrances": [
+    {
+      "name": "Wild Blackberry Jam",
+      "officialNotes": [
+        "Countryside Blackberry",
+        "Velvet Fig",
+        "Amber Woods"
+      ],
+      "feedbackOptions": [
+        [
+          "Blackberry / berries",
+          "Berry"
+        ],
+        [
+          "Fig / rich fruit",
+          "Fruity"
+        ],
+        [
+          "Jammy sweetness",
+          "Sweet"
+        ],
+        [
+          "Amber warmth",
+          "Amber"
+        ],
+        [
+          "Amber woods / woody finish",
+          "Woody"
+        ]
+      ],
+      "scentProfile": {
+        "Amber": 2,
+        "Berry": 3,
+        "Fruity": 3,
+        "Gourmand": 1,
+        "Sweet": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Berry",
+        "Jammy",
+        "Rich",
+        "Fall"
+      ],
+      "summary": "Rich blackberry and ripe fig simmered into jammy sweetness over soft amber woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Blueberry Cornbread",
+      "officialNotes": [
+        "Skillet-Baked Cornbread",
+        "Fresh Blueberries",
+        "Drizzled Honey"
+      ],
+      "feedbackOptions": [
+        [
+          "Blueberry / berries",
+          "Berry"
+        ],
+        [
+          "Cornbread / baked gourmand",
+          "Gourmand"
+        ],
+        [
+          "Honeyed sweetness",
+          "Sweet"
+        ],
+        [
+          "Warm baked quality",
+          "Warm"
+        ]
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 2,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Gourmand",
+        "Berry",
+        "Baked",
+        "Cozy"
+      ],
+      "summary": "Juicy blueberries baked into warm golden cornbread with a drizzle of honey.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sweet Cinnamon Pumpkin",
+      "officialNotes": [
+        "Heirloom Pumpkin",
+        "Autumn Cinnamon",
+        "Ginger Snap",
+        "Whipped Vanilla"
+      ],
+      "feedbackOptions": [
+        [
+          "Cinnamon and ginger spice",
+          "Spicy"
+        ],
+        [
+          "Ginger snap / baked gourmand",
+          "Gourmand"
+        ],
+        [
+          "Whipped vanilla",
+          "Vanilla"
+        ],
+        [
+          "Sweetness",
+          "Sweet"
+        ],
+        [
+          "Warmth",
+          "Warm"
+        ]
+      ],
+      "scentProfile": {
+        "Gourmand": 3,
+        "Spicy": 3,
+        "Sweet": 3,
+        "Vanilla": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Pumpkin",
+        "Gourmand",
+        "Spiced",
+        "Cozy"
+      ],
+      "summary": "Sweet pumpkin and cinnamon baked with ginger spice and soft whipped vanilla.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Farmhouse Pumpkin & Spice",
+      "officialNotes": [
+        "Heirloom Pumpkin",
+        "Patchouli",
+        "Fall Spices"
+      ],
+      "feedbackOptions": [
+        [
+          "Patchouli / earthy quality",
+          "Patchouli"
+        ],
+        [
+          "Fall spices",
+          "Spicy"
+        ],
+        [
+          "Warmth",
+          "Warm"
+        ]
+      ],
+      "scentProfile": {
+        "Patchouli": 3,
+        "Spicy": 3,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Earthy",
+        "Spiced",
+        "Warm",
+        "Fall"
+      ],
+      "summary": "Heirloom pumpkin and fall spices grounded by earthy patchouli.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Harvest Gathering",
+      "officialNotes": [
+        "Fresh Picked Apples",
+        "Autumn Berries",
+        "Clove Buds"
+      ],
+      "feedbackOptions": [
+        [
+          "Fresh-picked apple",
+          "Apple"
+        ],
+        [
+          "Autumn berries",
+          "Berry"
+        ],
+        [
+          "Mixed fruitiness",
+          "Fruity"
+        ],
+        [
+          "Clove spice",
+          "Spicy"
+        ],
+        [
+          "Warmth",
+          "Warm"
+        ]
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Berry": 2,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Fruity",
+        "Spiced",
+        "Harvest",
+        "Fall"
+      ],
+      "summary": "Fresh apples and tart autumn berries warmed with a cozy touch of clove.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Honeycrisp Apple",
+      "officialNotes": [
+        "Golden Honeycrisp",
+        "Apple Blossom",
+        "Fresh Sugarcane"
+      ],
+      "feedbackOptions": [
+        [
+          "Honeycrisp apple",
+          "Apple"
+        ],
+        [
+          "Juicy fruit",
+          "Fruity"
+        ],
+        [
+          "Apple blossom / floral",
+          "Floral"
+        ],
+        [
+          "Fresh crispness",
+          "Fresh"
+        ],
+        [
+          "Sugarcane sweetness",
+          "Sweet"
+        ]
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Floral": 1,
+        "Fresh": 2,
+        "Fruity": 3,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Apple",
+        "Crisp",
+        "Fresh",
+        "Orchard"
+      ],
+      "summary": "Crisp juicy Honeycrisp apple brightened by soft blossom and fresh sugarcane.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pomegranate & Blackberry",
+      "officialNotes": [
+        "Autumn Pomegranate",
+        "Sugared Blackberry",
+        "Vanilla Spice"
+      ],
+      "feedbackOptions": [
+        [
+          "Sugared blackberry / berries",
+          "Berry"
+        ],
+        [
+          "Pomegranate / fruit",
+          "Fruity"
+        ],
+        [
+          "Tart fruit quality",
+          "Tart"
+        ],
+        [
+          "Vanilla spice",
+          "Spicy"
+        ],
+        [
+          "Sweetness",
+          "Sweet"
+        ]
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 3,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Tart": 2,
+        "Vanilla": 1,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Dark Fruit",
+        "Berry",
+        "Tart",
+        "Fall"
+      ],
+      "summary": "Tart pomegranate and jammy blackberry sweetened with a touch of warm vanilla spice.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Mountain Teakwood",
+      "officialNotes": [
+        "Crisp Mountain Air",
+        "Rich Teakwood",
+        "A Touch of Fresh Eucalyptus"
+      ],
+      "feedbackOptions": [
+        [
+          "Teakwood / woods",
+          "Woody"
+        ],
+        [
+          "Fresh eucalyptus / herbal quality",
+          "Herbal"
+        ],
+        [
+          "Crisp mountain-air freshness",
+          "Fresh"
+        ],
+        [
+          "Cooling quality",
+          "Cooling"
+        ],
+        [
+          "Green aromatic quality",
+          "Green"
+        ]
+      ],
+      "scentProfile": {
+        "Cooling": 2,
+        "Fresh": 3,
+        "Green": 2,
+        "Herbal": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Fresh",
+        "Woodsy",
+        "Aromatic",
+        "Outdoorsy"
+      ],
+      "summary": "Crisp alpine air and fresh eucalyptus sweeping across rich teakwood.",
+      "availability": "uncertain"
+    }
+  ]
+}
