@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-10",
+  "description": "Recommendation-ready expansion batch 10.",
+  "fragrances": [
+    {
+      "name": "Gingham",
+      "officialNotes": [
+        "Blue Freesia",
+        "White Peach",
+        "Fresh Clementine"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Blue freesia / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "White peach / fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Fresh clementine / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Bright freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Floral": 3,
+        "Fresh": 3,
+        "Fruity": 2
+      },
+      "styleTags": [
+        "Signature",
+        "Fresh",
+        "Bright",
+        "Floral"
+      ],
+      "summary": "Fresh blue freesia, white peach and clementine in a bright, easygoing signature blend.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pumpkin Bonfire",
+      "officialNotes": [
+        "White Pumpkin",
+        "A Bundle of Clove Buds",
+        "Glowing Embers"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Clove / fall spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Charred woods / ember woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Fireside warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Spicy": 3,
+        "Warm": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Smoky",
+        "Spiced",
+        "Woodsy",
+        "Fall"
+      ],
+      "summary": "White pumpkin and clove warmed by glowing embers and charred woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Lavender Bergamot",
+      "officialNotes": [
+        "Bright Lavender",
+        "Bergamot Zest",
+        "Vanilla Bean"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Bright lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Bergamot zest / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Aromatic lavender / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Vanilla bean",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Refreshing brightness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Floral": 3,
+        "Fresh": 2,
+        "Herbal": 2,
+        "Vanilla": 2
+      },
+      "styleTags": [
+        "Lavender",
+        "Bright",
+        "Aromatic",
+        "Soft"
+      ],
+      "summary": "Bright lavender and bergamot softened by smooth vanilla bean.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Falling Leaves & Cashmere",
+      "officialNotes": [
+        "Soft Cashmere",
+        "Freshly Fallen Leaves",
+        "Blend of Comforting Spices"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fallen leaves / earthy quality",
+          "profileKey": "Earthy"
+        },
+        {
+          "label": "Comforting spices",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Cozy warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Earthy": 3,
+        "Spicy": 3,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Earthy",
+        "Spiced",
+        "Cozy",
+        "Fall"
+      ],
+      "summary": "Soft cashmere and fallen leaves wrapped in earthy autumn air and comforting spice.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Honeycrisp Hayride",
+      "officialNotes": [
+        "Honeycrisp Apples",
+        "Crisp Autumn Leaves"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Honeycrisp apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Crisp autumn leaves / leafy quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Refreshing crispness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Apple sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Fresh": 3,
+        "Fruity": 3,
+        "Green": 2,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Apple",
+        "Leafy",
+        "Fresh",
+        "Fall"
+      ],
+      "summary": "Sweet Honeycrisp apple lifted by the crisp, leafy freshness of autumn.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Cinnamon Pinecone",
+      "officialNotes": [
+        "Fresh Pine",
+        "Cinnamon Bark",
+        "Cedar",
+        "Juniper"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fresh pine / evergreen quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Cinnamon bark / spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Cedar / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Juniper / aromatic herbs",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Crisp freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Fresh": 3,
+        "Green": 3,
+        "Herbal": 2,
+        "Spicy": 3,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Evergreen",
+        "Spiced",
+        "Woodsy",
+        "Cozy"
+      ],
+      "summary": "Fresh pine and juniper warmed by cinnamon bark over sturdy cedar woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Oceanside Lavender",
+      "officialNotes": [
+        "Wild Lavender",
+        "Sweet Sandalwood",
+        "Calming Waves"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Wild lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Calming waves / watery quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Sandalwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Fresh coastal quality",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Aquatic": 3,
+        "Floral": 3,
+        "Fresh": 3,
+        "Woody": 2
+      },
+      "styleTags": [
+        "Coastal",
+        "Lavender",
+        "Fresh",
+        "Woodsy"
+      ],
+      "summary": "Wild lavender and smooth sandalwood washed with calm, watery freshness.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Midnight Plum",
+      "officialNotes": [
+        "Crimson Berries",
+        "Red Apple",
+        "Cashmere Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Crimson berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Red apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Juicy dark fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Cashmere musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Plush warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Berry": 3,
+        "Fruity": 3,
+        "Musk": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Dark Fruit",
+        "Musky",
+        "Orchard",
+        "Warm"
+      ],
+      "summary": "Juicy crimson berries and crisp red apple softened by plush cashmere musk.",
+      "availability": "uncertain"
+    }
+  ]
+}
