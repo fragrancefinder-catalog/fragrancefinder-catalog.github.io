@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-11",
+  "description": "Recommendation-ready expansion batch 11.",
+  "fragrances": [
+    {
+      "name": "Sweet Orange & Agave",
+      "officialNotes": [
+        "Effervescent Citrus",
+        "Golden Agave",
+        "Jasmine Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Effervescent citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Jasmine / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Jasmine musk / soft musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Agave sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Effervescent / sparkling quality",
+          "profileKey": "Sparkling"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 3,
+        "Floral": 2,
+        "Musk": 2,
+        "Sparkling": 2,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Citrus",
+        "Bright",
+        "Sparkling",
+        "Floral"
+      ],
+      "summary": "Effervescent citrus and golden agave softened by jasmine musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Football Season",
+      "officialNotes": [
+        "Warm Flannel",
+        "Fresh Fallen Leaves",
+        "Autumn Air"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Fallen leaves / earthy quality",
+          "profileKey": "Earthy"
+        },
+        {
+          "label": "Crisp autumn air / freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Cozy flannel warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Earthy": 2,
+        "Fresh": 3,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Crisp",
+        "Fall",
+        "Outdoorsy",
+        "Cozy"
+      ],
+      "summary": "Crisp autumn air and fresh fallen leaves wrapped in soft flannel warmth.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Mountainside Mist",
+      "officialNotes": [
+        "Chilled Open Air",
+        "Fresh Musk",
+        "Juniper Berries"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Chilled open air",
+          "profileKey": "Cooling"
+        },
+        {
+          "label": "Crisp mountain freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Evergreen / green quality",
+          "profileKey": "Green"
+        },
+        {
+          "label": "Juniper / aromatic quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Fresh musk",
+          "profileKey": "Musk"
+        }
+      ],
+      "scentProfile": {
+        "Cooling": 2,
+        "Fresh": 3,
+        "Green": 2,
+        "Herbal": 2,
+        "Musk": 2
+      },
+      "styleTags": [
+        "Frosty",
+        "Fresh",
+        "Aromatic",
+        "Outdoorsy"
+      ],
+      "summary": "Chilled mountain air and aromatic juniper over soft fresh musk and evergreen freshness.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Sweet Mum Blossom",
+      "officialNotes": [
+        "Autumn Mums",
+        "Warm Spices",
+        "Sweet Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Autumn mums / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Warm spices",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Sweet musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Cozy warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Floral": 3,
+        "Musk": 2,
+        "Spicy": 2,
+        "Sweet": 2,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Floral",
+        "Spiced",
+        "Soft",
+        "Fall"
+      ],
+      "summary": "Autumn mums warmed with gentle spice and softly sweet musk.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Cider Lane",
+      "officialNotes": [
+        "Warm Caramel",
+        "Granny Smith Apples",
+        "Dark Brown Sugar",
+        "Ground Clove"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Granny Smith apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Caramel / brown-sugar gourmand quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Ground clove / spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Caramel and brown-sugar sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 3,
+        "Fruity": 2,
+        "Gourmand": 3,
+        "Spicy": 2,
+        "Sweet": 3,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Apple",
+        "Caramel",
+        "Gourmand",
+        "Fall"
+      ],
+      "summary": "Tart green apple folded into warm caramel and brown sugar with ground clove.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Homemade Maple Butter",
+      "officialNotes": [
+        "Whipped Buttercream",
+        "Sweet Maple Drizzle",
+        "Cinnamon Sprinkle"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Whipped buttercream / creamy quality",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Maple and buttercream / gourmand quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Cinnamon",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Maple sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Warm baked quality",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 3,
+        "Gourmand": 3,
+        "Spicy": 2,
+        "Sweet": 3,
+        "Warm": 2
+      },
+      "styleTags": [
+        "Maple",
+        "Creamy",
+        "Gourmand",
+        "Cozy"
+      ],
+      "summary": "Whipped buttercream and maple sweetness finished with a soft cinnamon sprinkle.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Pumpkin Carving",
+      "officialNotes": [
+        "Freshly Carved Pumpkin",
+        "Spiced Pumpkin Seeds",
+        "Smooth Brown Sugar"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Pumpkin spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Brown-sugar sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Autumn warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Spicy": 3,
+        "Sweet": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Pumpkin",
+        "Spiced",
+        "Warm",
+        "Halloween"
+      ],
+      "summary": "Fresh pumpkin warmed with spiced seeds and smooth brown sugar.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Lullaby Linen",
+      "officialNotes": [
+        "Fluffy Blankets",
+        "Rainwater",
+        "Sweet Apple"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sweet apple",
+          "profileKey": "Apple"
+        },
+        {
+          "label": "Rainwater / watery quality",
+          "profileKey": "Aquatic"
+        },
+        {
+          "label": "Freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Fruity quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Apple": 2,
+        "Aquatic": 3,
+        "Fresh": 3,
+        "Fruity": 2,
+        "Sweet": 2
+      },
+      "styleTags": [
+        "Soft",
+        "Rainy",
+        "Fresh",
+        "Cozy"
+      ],
+      "summary": "Soft rainwater freshness with sweet apple and a cozy, fruity finish.",
+      "availability": "uncertain"
+    }
+  ]
+}
