@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T02:24:50.149Z",
+  "generatedAt": "2026-09-02T04:24:17.926Z",
   "noteEvidenceSummary": {
     "records": 10,
     "evidenceObservations": 17,
@@ -296,6 +296,46 @@
       "availability": "uncertain"
     },
     {
+      "name": "Blackberries & Basil",
+      "officialNotes": [
+        "Blackberries",
+        "Sparkling Champagne",
+        "Basil"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Blackberries / berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Juicy fruit",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Basil / herbal quality",
+          "profileKey": "Herbal"
+        },
+        {
+          "label": "Sparkling champagne / bubbly quality",
+          "profileKey": "Sparkling"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Fruity": 3,
+        "Herbal": 2,
+        "Sparkling": 3
+      },
+      "styleTags": [
+        "Berry",
+        "Sparkling",
+        "Herbal",
+        "Bright"
+      ],
+      "summary": "Blackberries and sparkling champagne lifted by aromatic basil.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Blueberry Cornbread",
       "officialNotes": [
         "Skillet-Baked Cornbread",
@@ -512,6 +552,41 @@
         "Dessert"
       ],
       "summary": "Buttery caramel and melted brown sugar folded into rich whipped vanilla cream.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Carnival Fog",
+      "officialNotes": [
+        "Spooky Autumn Air",
+        "Woody Incense",
+        "Midnight Fog"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Autumn-air freshness",
+          "profileKey": "Fresh"
+        },
+        {
+          "label": "Foggy atmospheric quality",
+          "profileKey": "Airy"
+        },
+        {
+          "label": "Woody incense",
+          "profileKey": "Woody"
+        }
+      ],
+      "scentProfile": {
+        "Airy": 2,
+        "Fresh": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Smoky",
+        "Mysterious",
+        "Woodsy",
+        "Halloween"
+      ],
+      "summary": "Fresh autumn air and midnight fog wrapped around smoky woody incense.",
       "availability": "uncertain"
     },
     {
@@ -782,6 +857,52 @@
       "availability": "uncertain"
     },
     {
+      "name": "Clean House Vibes - Fall Edition",
+      "officialNotes": [
+        "Sparkling Mandarin",
+        "Fresh Lavender",
+        "Cozy Cedarwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sparkling mandarin / citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Fresh lavender / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Cedarwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Clean-home quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Cozy woodsy warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 2,
+        "Clean": 3,
+        "Floral": 2,
+        "Fresh": 2,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Clean",
+        "Bright",
+        "Woodsy",
+        "Fall"
+      ],
+      "summary": "Sparkling mandarin and fresh lavender over cozy cedarwood, with a clean, woodsy warmth.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Coffee & Whiskey",
       "officialNotes": [
         "Lightly Brewed Coffee",
@@ -902,6 +1023,51 @@
       "availability": "uncertain"
     },
     {
+      "name": "Cozy Vanilla Almond",
+      "officialNotes": [
+        "Vanilla Orchid",
+        "Sugared Almond",
+        "Sweet Musk"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sugared almond / nutty quality",
+          "profileKey": "Nutty"
+        },
+        {
+          "label": "Vanilla orchid",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Sweet musk",
+          "profileKey": "Musk"
+        },
+        {
+          "label": "Sugared sweetness",
+          "profileKey": "Sweet"
+        },
+        {
+          "label": "Cozy warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Musk": 2,
+        "Nutty": 3,
+        "Sweet": 3,
+        "Vanilla": 2,
+        "Warm": 3
+      },
+      "styleTags": [
+        "Nutty",
+        "Sweet",
+        "Cozy",
+        "Vanilla"
+      ],
+      "summary": "Sugared almond and vanilla orchid wrapped in sweet musk and cozy warmth.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Crisp Morning Air",
       "officialNotes": [
         "Fresh Pine",
@@ -944,6 +1110,46 @@
         "Woodsy"
       ],
       "summary": "Crisp pine and juniper brightened by fresh, juicy pear.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Denim & Daisies",
+      "officialNotes": [
+        "Sweet Daisies",
+        "Sun-Soaked Denim",
+        "Summer Citrus"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Sweet daisies / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Summer citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Fresh-off-the-line cotton / clean quality",
+          "profileKey": "Clean"
+        },
+        {
+          "label": "Bright freshness",
+          "profileKey": "Fresh"
+        }
+      ],
+      "scentProfile": {
+        "Citrus": 3,
+        "Clean": 2,
+        "Floral": 3,
+        "Fresh": 3
+      },
+      "styleTags": [
+        "Bright",
+        "Floral",
+        "Cottony",
+        "Fresh"
+      ],
+      "summary": "Sweet daisies and summer citrus over a fresh, sun-soaked denim accord.",
       "availability": "uncertain"
     },
     {
@@ -1662,6 +1868,56 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Gummi Snacks",
+      "officialNotes": [
+        "Tropical Citrus",
+        "Juicy Berries",
+        "Sugary Vanilla"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Juicy berries",
+          "profileKey": "Berry"
+        },
+        {
+          "label": "Tropical citrus",
+          "profileKey": "Citrus"
+        },
+        {
+          "label": "Fruity candy quality",
+          "profileKey": "Fruity"
+        },
+        {
+          "label": "Chewy candy / treat-like quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Sugary vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Candy sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Berry": 3,
+        "Citrus": 2,
+        "Fruity": 3,
+        "Gourmand": 3,
+        "Sweet": 3,
+        "Vanilla": 2
+      },
+      "styleTags": [
+        "Candy",
+        "Fruity",
+        "Sweet",
+        "Playful"
+      ],
+      "summary": "Juicy berries and tropical citrus coated in sugary vanilla candy sweetness.",
+      "availability": "uncertain"
     },
     {
       "name": "Harvest Gathering",
@@ -3772,6 +4028,57 @@
       "availability": "uncertain"
     },
     {
+      "name": "Toasted Coconut Creme",
+      "officialNotes": [
+        "Creamy Coconut",
+        "Sweet Vanilla",
+        "Warm Cedarwood"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Creamy coconut",
+          "profileKey": "Coconut"
+        },
+        {
+          "label": "Milky creaminess",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Baked-sugar treat quality",
+          "profileKey": "Gourmand"
+        },
+        {
+          "label": "Sweet vanilla",
+          "profileKey": "Vanilla"
+        },
+        {
+          "label": "Cedarwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Sweetness",
+          "profileKey": "Sweet"
+        }
+      ],
+      "scentProfile": {
+        "Coconut": 3,
+        "Creamy": 3,
+        "Gourmand": 2,
+        "Sweet": 3,
+        "Vanilla": 2,
+        "Warm": 2,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Coconut",
+        "Creamy",
+        "Sweet",
+        "Woodsy"
+      ],
+      "summary": "Creamy coconut and sweet vanilla melted over warm cedarwood with a baked-sugar finish.",
+      "availability": "uncertain"
+    },
+    {
       "name": "Vampire Blood",
       "officialNotes": [
         "Red Berries",
@@ -4332,6 +4639,51 @@
         "Fall"
       ],
       "summary": "Rich blackberry and ripe fig simmered into jammy sweetness over soft amber woods.",
+      "availability": "uncertain"
+    },
+    {
+      "name": "Woodland Evening",
+      "officialNotes": [
+        "Creamy Oud",
+        "Pepperwood",
+        "Orange Flower"
+      ],
+      "feedbackOptions": [
+        {
+          "label": "Oud and pepperwood / woods",
+          "profileKey": "Woody"
+        },
+        {
+          "label": "Warm spice",
+          "profileKey": "Spicy"
+        },
+        {
+          "label": "Orange flower / floral",
+          "profileKey": "Floral"
+        },
+        {
+          "label": "Creamy oud quality",
+          "profileKey": "Creamy"
+        },
+        {
+          "label": "Cozy warmth",
+          "profileKey": "Warm"
+        }
+      ],
+      "scentProfile": {
+        "Creamy": 2,
+        "Floral": 2,
+        "Spicy": 2,
+        "Warm": 3,
+        "Woody": 3
+      },
+      "styleTags": [
+        "Woodsy",
+        "Spiced",
+        "Cozy",
+        "Evening"
+      ],
+      "summary": "Creamy oud and pepperwood warmed with orange flower and gentle spice.",
       "availability": "uncertain"
     }
   ],
